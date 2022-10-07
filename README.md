@@ -15,7 +15,6 @@
 1. [Datas](estudos/datas.md)
 1. [Exceções](estudos/excecoes.md)
 1. [Arquivos](estudos/arquivos.md)
-
 1. [If..Else](estudos/if-else.md)
 1. [Operador Condicional](estudos/operador-condicional.md)
 1. [While](estudos/while.md)
