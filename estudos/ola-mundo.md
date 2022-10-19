@@ -1,1 +1,0 @@
-# Python - Olá Mundo

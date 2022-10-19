@@ -1,7 +1,7 @@
 # Python
 
-1. [Olá Mundo](estudos/ola-mundo.md)
 1. [Sobre o Python](estudos/about.md)
+1. [Template](estudos/template.md)
 1. [Linha de Comando e PIP](estudos/linha-comando.md)
 1. [Criando .venv](estudos/venv.md)
 1. [Tipos](estudos/tipos.md)
