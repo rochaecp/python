@@ -1,9 +1,14 @@
 # Python
 
-1. [Sobre o Python](estudos/about.md)
+## Úteis
+
 1. [Template](estudos/template.md)
 1. [Linha de Comando e PIP](estudos/linha-comando.md)
 1. [Criando .venv](estudos/venv.md)
+
+## Introdução
+
+1. [Sobre o Python](estudos/about.md)
 1. [Tipos](estudos/tipos.md)
 1. [Variáveis e Constantes](estudos/variaveis-constantes.md)
 1. [Casting](estudos/casting.md)
