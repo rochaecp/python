@@ -9,8 +9,8 @@
 ## Introdução
 
 1. [Sobre o Python](estudos/about.md)
-1. [Tipos](estudos/tipos.md)
 1. [Variáveis e Constantes](estudos/variaveis-constantes.md)
+1. [Tipos](estudos/tipos.md)
 1. [Casting](estudos/casting.md)
 1. [Operadores](estudos/operadores.md)
 1. [Inputs e Outputs](estudos/input-output.md)
