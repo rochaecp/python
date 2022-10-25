@@ -2,9 +2,9 @@
 
 ## Úteis
 
-1. [Template](estudos/template.md)
-1. [Linha de Comando e PIP](estudos/linha-comando.md)
-1. [Criando .venv](estudos/venv.md)
+- [Template](estudos/template.md)
+- [Linha de Comando e PIP](estudos/linha-comando.md)
+- [Criando .venv](estudos/venv.md)
 
 ## Introdução
 
