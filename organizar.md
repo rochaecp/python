@@ -1,36 +1,5 @@
 # Python
 
-## Data Types
-
-### Built-in Data Types 
-
-- Text Type: 	    str
-- Numeric Types: 	int, float, complex (ex.: 1j)
-- Sequence Types: list, tuple, range
-- Mapping Type: 	dict
-- Set Types: 	    set, frozenset
-- Boolean Type: 	bool
-- Binary Types: 	bytes, bytearray, memoryview
-
-> to store collections of data: list, tuple, set and dictionary
-
-~~~python
-myType = type(var)
-~~~
-
-## Numbers
-
-- There are three numeric types in Python:
- - int
- - float
- - complex
-
-~~~python
-x = 1    # int
-y = 2.8  # float
-z = 1j   # complex
-~~~
-
 ## Casting
 
 - If you want to specify the data type of a variable, this can be done with casting.
