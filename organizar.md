@@ -1,39 +1,5 @@
 # Python
 
-## Booleans
-
-- Booleans represent one of two values: True or False.
-- Any string is True, except empty strings.
-- Any number is True, except 0.
-- Any list, tuple, set, and dictionary are True, except empty ones.
-- Values to False: (), [], {}, "", the number 0, the value None, False.
-
-~~~python
-# The following will return True:
-myBool = bool(True) # or True
-myBool = bool("Hello")
-myBool = bool(15)
-
-# The following will return False:
-myBool = bool(False) # or False
-myBool = bool(None)
-myBool = bool(0)
-myBool = bool("")
-myBool = bool(())
-myBool = bool([])
-myBool = bool({}) 
-~~~
-
-## Operators
-
-- Arithmetic operators: + - * ** / // % ++ --
-- Assignment operators: = += -= *= /= %= &= |= ^= >>= <<=
-- Comparison operators: == != > < >= <=
-- Logical operators: and or not
-- Identity Operators: is, is not
-- Membership Operators: in, not in
-- Bitwise operators: & | ^ << >> ~
-
 ## Lists
 
 - Lists are used to store multiple items in a single variable.
