@@ -18,31 +18,37 @@
 1. [Math](estudos/math.md)
 1. [Gerar Números aleatórios](estudos/aleatorios.md)
 1. [Datas](estudos/datas.md)
-1. [Exceções](estudos/excecoes.md)
-1. [Arquivos](estudos/arquivos.md)
+
+## Comandos Condicionais e de Repetição
+
 1. [If..Else](estudos/if-else.md)
 1. [Operador Condicional](estudos/operador-condicional.md)
 1. [While](estudos/while.md)
 1. [For](estudos/for.md)
-1. [Funções](estudos/funcoes.md)
-1. [Recursão](estudos/recursao.md)
-1. [Lambda](estudos/lambda.md)
-1. [Modulos](estudos/modulos.md)
 
-## EDs
+## Estruturas de Dados
 
 1. [Listas](estudos/listas.md)
 1. [Tuplas](estudos/tuplas.md)
 1. [Conjuntos](estudos/conjuntos.md)
 1. [Dicionários](estudos/dicionarios.md)
 
+## Outros
+
+1. [Exceções](estudos/excecoes.md)
+1. [Arquivos](estudos/arquivos.md)
+1. [Funções](estudos/funcoes.md)
+1. [Recursão](estudos/recursao.md)
+1. [Lambda](estudos/lambda.md)
+1. [Modulos](estudos/modulos.md)
+
 ## POO
 
 1. [Classes, Objetos e Métodos](estudos/classes.md)
 
-## How To
+## Exemplos
 
-1. [Usando o webservice ViaCEP](estudos/howto-viacep.md)
-1. [Usando a API pokemons](estudos/howto-pokemon.md)
-1. [Pegar o código fonte de qualquer página](estudos/howto-source-code.md)
-1. [Usando no URI](estudos/howto-uri.md)
+1. [Usando o webservice ViaCEP](estudos/ex-viacep.md)
+1. [Usando a API pokemons](estudos/ex-pokemon.md)
+1. [Pegar o código fonte de qualquer página](estudos/ex-source-code.md)
+1. [Usando no URI](estudos/ex-uri.md)
