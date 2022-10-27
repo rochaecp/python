@@ -21,7 +21,7 @@ my_list = list(my_tuple)
 my_list = list(my_set)
 ~~~
 
-## Acessando os elementos de uma lista
+## Acessando um elemento de uma lista
 
 ~~~python
 item = my_list[0]   # first
@@ -29,74 +29,70 @@ item = my_list[-1]  # last
 item = my_list[-2]
 ~~~
 
-##
+## Acessando todos os elementos de uma lista
 
 ~~~python
-
+my_list = ["apple", "banana", "cherry"]
+for x in my_list:
+    print(x) 
 ~~~
 
-##
-
 ~~~python
-
+my_list = ["apple", "banana", "cherry"]
+for i in range(len(my_list)):
+    print(my_list[i]) 
 ~~~
 
-##
-
 ~~~python
-
+my_list = ["apple", "banana", "cherry"]
+i = 0
+while i < len(my_list):
+    print(my_list[i])
+    i = i + 1
 ~~~
 
-##
-
 ~~~python
-
+my_list = ["apple", "banana", "cherry"]
+[print(x) for x in my_list] 
 ~~~
 
-##
+## Obtendo fatias da lista
 
 ~~~python
-
-~~~
-
-##
-
-~~~python
-
-~~~
-
-##
-
-~~~python
-
-~~~
-
-
-~~~python
-
-# Range of Indexes
-my_list = my_list[2:5] # 2 (included) and end at index 5 (not included)
-my_list = my_list[:3] # start at the first item, 3 (not included)
+my_list = my_list[2:5]  # 2 (included) and end at index 5 (not included)
+my_list = my_list[:3]   # start at the first item, 3 (not included)
 my_list = my_list[0:3]
-my_list = my_list[2:] # 2 (included) to the end 
+my_list = my_list[2:]   # 2 (included) to the end 
 my_list = my_list[-2:]
 my_list = my_list[-4:-1]
+~~~
 
-# Check if Item Exists
+## Verificando se um valor está contido na lista
+
+~~~python
 if "apple" in my_list:
-  print("Yes, 'apple' is in my_list")
+    print("Sim")
+~~~
 
-# Change Item Value
+## Modificando o valor de um item
+
+~~~python
 my_list[0] = "apple"
-my_list[1:3] = ["apple", "cherry"] # change a range of item values
+my_list[1:3] = ["apple", "cherry"] # mudando uma fatia da lista
+~~~
 
-# Insert and Add List Items and Extend List
+## Inserindo itens em uma lista
+
+~~~python
 my_list.insert(1, "apple") # inserts an item at the specified index
 my_list.append("apple") # add to the end
 my_list.extend(my_list2) # add elementsof my_list2 to the end of my_list
 my_list.extend(my_tuple) # add any iterable objects (tuple, set, dictionarie, etc)
+~~~
 
-# Remove List Items
+## Removendo itens de uma lista
+
+~~~python
 my_list.remove("apple")
 my_list.pop(1) # removes the specified index
 my_list.pop(-1) # removes the last item
@@ -104,28 +100,40 @@ my_list.pop() # removes the last item
 del my_list[0] # removes the specified index
 del my_list # delete the list completely
 my_list.clear()
+~~~
 
-# Loop Through a List
-my_list = ["apple", "banana", "cherry"]
-for x in my_list:
-  print(x) 
+##
 
-# Loop Through the Index Numbers
-my_list = ["apple", "banana", "cherry"]
-for i in range(len(my_list)):
-  print(my_list[i]) 
+~~~python
 
-# Loop Using a While Loop
-my_list = ["apple", "banana", "cherry"]
-i = 0
-while i < len(my_list):
-  print(my_list[i])
-  i = i + 1
+~~~
 
-# Looping Using List Comprehension
-my_list = ["apple", "banana", "cherry"]
-[print(x) for x in my_list] 
+##
 
+~~~python
+
+~~~
+
+##
+
+~~~python
+
+~~~
+
+##
+
+~~~python
+
+~~~
+
+##
+
+~~~python
+
+~~~
+
+
+~~~python
 # List Comprehension - a shorter syntax when you want to create a new list based on the values of an existing list.
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 my_list = [x for x in fruits] # copy the list fruits
