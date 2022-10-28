@@ -102,39 +102,11 @@ del my_list # delete the list completely
 my_list.clear()
 ~~~
 
-##
+## List Comprehension
+
+útil para criar uma lista baseada em outra já existente.
 
 ~~~python
-
-~~~
-
-##
-
-~~~python
-
-~~~
-
-##
-
-~~~python
-
-~~~
-
-##
-
-~~~python
-
-~~~
-
-##
-
-~~~python
-
-~~~
-
-
-~~~python
-# List Comprehension - a shorter syntax when you want to create a new list based on the values of an existing list.
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 my_list = [x for x in fruits] # copy the list fruits
 my_list = [x for x in fruits if "a" in x] # fruits with the letter "a" in the name
@@ -143,48 +115,97 @@ my_list = [x.upper() for x in fruits]
 my_list = [x * 2 for x in range(10)]
 my_list = [x for x in range(10) if x % 2 == 0]
 my_list = [x if x != "banana" else "orange" for x in fruits] # returns orange instead of banana
+~~~
 
-# Sort Lists
+## Ordenando Listas
+
+~~~python
 my_list.sort() # all capital letters being sorted before lower case letters == case sensitive
 my_list.sort(reverse = True)
 my_list.reverse()
+~~~
 
-# Customize Sort Function
+Ordena elementos baseado no quão próximos eles estão de 50:
 
-## Sort the list based on how close the number is to 50
+~~~python
 def myFunction(n):
-  return abs(n - 50)
+    return abs(n - 50)
 my_list = [100, 50, 65, 82, 23]
 my_list.sort(key = myFunction)
+~~~
 
-## Case Insensitive Sort
+Ordena usando case insensitive:
+
+~~~python
 my_list = ["banana", "Orange", "Kiwi", "cherry"]
 my_list.sort(key = str.lower)
+~~~
 
-# Copy Lists
+## Copiando uma lista
+
+~~~python
 my_list_cpy = my_list.copy()
+~~~
 
-# Copy Lists - another way
+~~~python
 my_list_cpy = list(my_list)
+~~~
 
-# Join Lists
+## Juntando duas listas
+
+~~~python
 list3 = list1 + list2
+~~~
+
+~~~python
 list1.extend(list2)
+~~~
 
-# Join Lists
+~~~python
 for x in list2:
-  list1.append(x)
+    list1.append(x)
+~~~
 
-# Other methods
-counter = my_list.count("apple")
-index = my_list.index("apple")
-my_len = len(my_list)
-my_sum = sum(my_list)
-my_max = max(my_list)
-my_min = min(my_list)
+## Eliminando itens duplicados
 
-# Eliminating duplicate items and order
+~~~python
 my_list = [5, 1, 1, 2, 2, 3, 4, 4]
 my_set = set(my_list)
 my_list = list(my_set)
+~~~
+
+## Contando quantas vezes um elemento aparece na lista
+
+~~~python
+counter = my_list.count("apple")
+~~~
+
+## Obtendo o índice de um elemento da lista
+
+~~~python
+index = my_list.index("apple")
+~~~
+
+## Obtendo o tamanho da lista
+
+~~~python
+my_len = len(my_list)
+~~~
+
+## Obtendo a soma dos elementos da lista
+
+~~~python
+my_sum = sum(my_list)
+~~~
+
+## Obtendo o maior elemento da lista
+
+~~~python
+my_max = max(my_list)
+~~~
+
+## Obtendo o menor elemento da lista
+
+~~~python
+my_min = min(my_list)
 ~~~
