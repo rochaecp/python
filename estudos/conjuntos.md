@@ -15,6 +15,12 @@ Com o construtor:
 my_set = set(("apple", "banana", "cherry")) # note the double round-brackets
 ~~~
 
+Convertendo lista em conjunto com o construtor:
+
+~~~python
+my_set = set(my_list)
+~~~
+
 ## Obtendo o tamanho de um conjunto
 
 ~~~python
@@ -24,6 +30,8 @@ my_len = len(my_set)
 ## Acessando itens de um conjunto
 
 - Não é possível utilizar um index ou uma chave.
+
+Acessando todos elementos do conjunto:
 
 ~~~python
 for x in my_set:
@@ -42,48 +50,92 @@ my_bool = "banana" in my_set
 
 ## Adicionando itens a um conjunto
 
+- Os itens repetidos são removidos.
+
+Adicionando um item:
+
 ~~~python
 my_set.add("laranja")
 ~~~
 
-## 
+Adicionando todos os itens de outro conjunto:
 
 ~~~python
-
+my_set.update(my_set2)
 ~~~
 
-
+Adicionando todos itens de uma lista: 
 
 ~~~python
-# Add Sets or any iterable object (tuples, lists, dictionaries etc.)
-my_set.update(my_set2) # add items from my_set2 set into my_set
-my_set.update(my_list) # add items from the list into my_set
+my_set.update(my_list)
+~~~
 
-# Remove Item
-my_set.remove("banana") # raise an error if dont exist
-my_set.discard("banana") # dont raise an error if dont exist
-last_item = my_set.pop() # remember: the sets are unordered
-my_set.clear() # empties the set
+## Removendo itens
+
+Lança um erro se o elemento não existir:
+
+~~~python
+my_set.remove("banana") 
+~~~
+
+Não lança um erro se elemento não existir:
+
+~~~python
+my_set.discard("banana") 
+~~~
+
+Remove um elemento (lembrando: conjuntos não possuem ordem):
+
+~~~python
+last_item = my_set.pop()
+~~~
+
+Limpando o conjunto:
+
+~~~python
+my_set.clear()
+~~~
+
+Deletando totalmente o conjunto:
+
+~~~python
 del my_set # delete the set completely
+~~~
 
-# Loop Items
-for item in my_set:
-  print(item) 
+## Operações entre Conjuntos
 
-# Join Two Sets - elimine duplicates
+União:
+
+~~~python
 my_set3 = my_set1.union(my_set2)
-my_set1.update(my_set2) # insert the items in my_set2 into my_set1
+~~~
 
-# Join Two Sets - Keep ONLY the Duplicates
-my_set1.intersection_update(my_set2)
-my_set3 = my_set1.intersection(my_set2) # Return a set that contains the items that exist in both set
+Intersecção (mantém apenas os duplicados):
 
-# Join Two Sets - Keep All, But NOT the Duplicates
-my_set3 = my_set1.symmetric_difference(my_set2) # return a new set, that contains only the elements that are NOT present in both sets.
+~~~python
+my_set3 = my_set1.intersection(my_set2)
+~~~
 
-# Other methods
+Diferença simétrica (mantém todos menos os existentes em ambos):
+
+~~~python
+my_set3 = my_set1.symmetric_difference(my_set2) 
+~~~
+
+Diferença:
+
+~~~python
 my_set = my_set.difference(my_set2)
+~~~
+
+Subconjunto: 
+
+~~~python
 answ = my_set.issubset(my_set2)
+~~~
+
+Superconjunto:
+
+~~~python
 answ = my_set.issuperset(my_set2)
-my_set = set(my_list)
 ~~~
