@@ -1,39 +1,60 @@
 # Python - Conjuntos (sets)
 
-- Set is a collection which is unordered and unindexed. No duplicate members.
-- Sets are unordered, so you cannot be sure in which order the items will appear.
-- Set items are unordered, unchangeable, and do not allow duplicate values.
-- Set items can be of any data type.
-- [Set Methods Reference](https://www.w3schools.com/python/python_ref_set.asp)
+- Um conjunto (set) é uma coleção não ordenada, **imutável**, não indexada e **não permite itens duplicados**.
+- Os itens de um conjunto podem ser de qualquer tipo.
+
+## Criando um conjunto
 
 ~~~python
-# Creating a set
 my_set = {"apple", "banana", "cherry"}
+~~~
 
-# The set() Constructor
+Com o construtor:
+
+~~~python
 my_set = set(("apple", "banana", "cherry")) # note the double round-brackets
+~~~
 
-# Duplicates Not Allowed
-my_set = {"apple", "banana", "cherry", "apple"}
-my_set = {1, 2, 3, 3, 3}
+## Obtendo o tamanho de um conjunto
 
-# Get the Length of a Set
+~~~python
 my_len = len(my_set)
+~~~
 
-# Access Items
-## You cannot access items in a set by referring to an index or a key.
+## Acessando itens de um conjunto
+
+- Não é possível utilizar um index ou uma chave.
+
+~~~python
 for x in my_set:
-  print(x) 
+    print(x) 
+~~~
 
-# Check if "banana" is present in the set
+## Checando se um elemento está no conjunto
+
+~~~python
 my_bool = "banana" in my_set
+~~~
 
-# Change Items
-## Once a set is created, you cannot change its items, but you can add new items.
+## Modificando itens de um conjunto
 
-# Add Items
-my_set.add("orange")
+> Não é possível fazer isso!
 
+## Adicionando itens a um conjunto
+
+~~~python
+my_set.add("laranja")
+~~~
+
+## 
+
+~~~python
+
+~~~
+
+
+
+~~~python
 # Add Sets or any iterable object (tuples, lists, dictionaries etc.)
 my_set.update(my_set2) # add items from my_set2 set into my_set
 my_set.update(my_list) # add items from the list into my_set
