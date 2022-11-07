@@ -22,6 +22,7 @@
 ## Comandos Condicionais e de Repetição
 
 1. [If..Else](estudos/if-else.md)
+1. [Pass](estudos/pass.md)
 1. [Operador Condicional](estudos/operador-condicional.md)
 1. [While](estudos/while.md)
 1. [For](estudos/for.md)
