@@ -1,20 +1,5 @@
 # Python
 
-## If...Else
-
-~~~python
-if grade >= 6:
-  print "Ok"
-elif grade >= 5:
-  print "not Ok"
-else:
-  print "oh no"
-
-# The pass statement
-if b > a:
-  pass # if statements cannot be empty, but if you for some reason have an if statement with no content, put in the pass statement to avoid getting an error.
-~~~
-
 ## Conditional Operator
 
 - This technique is known as Ternary Operators, or Conditional Expressions.
