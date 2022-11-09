@@ -1,18 +1,5 @@
 # Python
 
-## Conditional Operator
-
-- This technique is known as Ternary Operators, or Conditional Expressions.
-
-~~~python
-min = a if a < b else b
-if a > b: print("a is greater than b") 
-print("A") if a > b else print("B")
-print("A") if a > b else print("=") if a == b else print("B")
-~~~
-
-> There is no switch statement in python 
-
 ## While Loop
 
 ~~~python
