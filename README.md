@@ -22,14 +22,15 @@
 ## Comandos Condicionais e de Repetição
 
 1. [If..Else](estudos/if-else.md)
-1. [Switch](#) - Não há
+1. [Switch](estudos/#) - Não há
 1. [Pass](estudos/pass.md)
 1. [While](estudos/while.md)
-1. [Do...While](#) - Não há
+1. [Do...While](estudos/#) - Não há
 1. [For](estudos/for.md)
 
 ## Estruturas de Dados
 
+1. [Arrays](estudos/#) - Não há (usamos listas ou lib NumPy)
 1. [Listas](estudos/listas.md)
 1. [Tuplas](estudos/tuplas.md)
 1. [Conjuntos](estudos/conjuntos.md)
