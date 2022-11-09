@@ -38,10 +38,10 @@
 ## Outros
 
 1. [Funções](estudos/funcoes.md)
-1. [Exceções](estudos/excecoes.md)
+1. [Lambda](estudos/lambda.md)
 1. [Arquivos](estudos/arquivos.md)
 1. [Recursão](estudos/recursao.md)
-1. [Lambda](estudos/lambda.md)
+1. [Exceções](estudos/excecoes.md)
 1. [Modulos](estudos/modulos.md)
 
 ## POO
