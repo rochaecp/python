@@ -50,6 +50,16 @@
 1. [Bibliotecas](estudos/bibliotecas.md)
 1. [Classes](estudos/classes.md)
 
+## GUI
+
+### TKinter
+
+1. [Olá Mundo](estudos/gui-tkinter-ola-mundo.md)
+
+### PyQt5
+
+1. [Olá Mundo](estudos/gui-pyqt5-ola-mundo.md)
+
 ## Exemplos
 
 1. [Usando o webservice ViaCEP](estudos/ex-viacep.md)
