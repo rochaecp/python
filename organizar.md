@@ -1,49 +1,5 @@
 # Python
 
-## Math
-
-~~~python
-x = round(num)
-x = floor(num)    # from math import floor
-x = ceil(num)     # from math import ceil
-
-x = sum(my_list)
-x = max(my_list)
-x = min(my_list)
-x = len(my_list)
-
-myVar = eval(expression)
-
-x = bin(6)[2:] # binary - returns '110'
-~~~
-
-## JSON
-
-~~~python
-
-~~~
-
-## RegEx
-
-~~~python
-
-~~~
-
-## Python PIP
-
-### Packages - Installing packages in python
-
-- Package is a collection of modules.
-- Pip is a package manager for Python.
-
-~~~shell
-pip --version
-pip --help
-pip freeze
-pip list
-pip install requests
-~~~
-
 ## Exceptions
 
 - [Built-in Exceptions Reference](https://www.w3schools.com/python/python_ref_exceptions.asp)
