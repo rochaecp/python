@@ -3,6 +3,7 @@
 ## Pré-requisitos
 
 - Biblioteca Pandas
+- Os datasets podem ser encontrados [aqui](https://github.com/rochaecp/python/tree/main/estudos/datasets)
 
 Instalando a biblioteca Pandas:
 
