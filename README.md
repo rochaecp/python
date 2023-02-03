@@ -70,4 +70,4 @@
 
 ## Beecrowd
 
-1. [Usando no URI](estudos/bee-local.md)
+1. [Executando localmente](estudos/bee-local.md)
