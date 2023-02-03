@@ -3,8 +3,8 @@
 ## Úteis
 
 - [Template](estudos/template.md)
-- [Linha de Comando e PIP](estudos/linha-comando.md)
-- [Criando .venv](estudos/venv.md)
+- [CLI e PIP](estudos/linha-comando.md)
+- [Criando um .venv](estudos/venv.md)
 
 ## Introdução
 
