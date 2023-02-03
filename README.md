@@ -50,6 +50,12 @@
 1. [Bibliotecas](estudos/bibliotecas.md)
 1. [Classes](estudos/classes.md)
 
+## Pandas
+
+#### Exemplos
+
+1. [Análise de Dados com Pandas](estudos/ex-pandas-frutas.md)
+
 ## GUI
 
 ### TKinter
