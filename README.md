@@ -36,7 +36,7 @@
 1. [Conjuntos](estudos/python/conjuntos.md)
 1. [Dicionários](estudos/python/dicionarios.md)
 
-## Outros
+## Outros comandos
 
 1. [Funções](estudos/python/funcoes.md)
 1. [Lambda](estudos/python/lambda.md)
@@ -56,28 +56,13 @@
 1. [Usando a API pokemons](estudos/python/ex-pokemon.md)
 1. [Pegar o código fonte de qualquer página](estudos/python/ex-source-code.md)
 
-# Pandas
+# Diversos
 
-1. [Exemplo - frutas](estudos/pandas/ex-pandas-frutas.md)
-
-# OpenCV
-
-1. [Sobre o OpenCV](estudos/opencv/about.md)
-1. [Lendo e exibindo uma imagem](estudos/opencv/lendo-exibindo.md)
-1. [Salvando uma copia de uma imagem](estudos/opencv/salvando-copia.md)
-
-# GUI
-
-## TKinter
-
-1. [Olá Mundo](estudos/gui/gui-tkinter-ola-mundo.md)
-
-## PyQt5
-
-1. [Olá Mundo](estudos/gui/gui-pyqt5-ola-mundo.md)
-
-# Exercícios
+1. [Pandas](estudos/pandas/README.md)
+1. [OpenCV](estudos/opencv/README.md)
+1. [GUI](estudos/gui/README.md)
+1. [GUI](estudos/gui/README.md)
 
 ## Beecrowd
 
-1. [Executando localmente](estudos/treinos/bee-local.md)
+1. [Executando localmente](estudos/bee-local.md)
