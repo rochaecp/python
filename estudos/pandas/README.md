@@ -1,3 +1,3 @@
 # Pandas
 
-1. [Exemplo - frutas](estudos/pandas/ex-pandas-frutas.md)
+1. [Exemplo - frutas](estudos/ex-pandas-frutas.md)

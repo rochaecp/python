@@ -1,68 +1,8 @@
 # Python
 
-## Úteis
-
-- [Template](estudos/python/template.md)
-- [CLI e PIP](estudos/python/linha-comando.md)
-- [Criando um .venv](estudos/python/venv.md)
-
-## Introdução
-
-1. [Sobre o Python](estudos/python/about.md)
-1. [Variáveis e Constantes](estudos/python/variaveis-constantes.md)
-1. [Tipos de Dados](estudos/python/tipos.md)
-1. [Casting](estudos/python/casting.md)
-1. [Operadores](estudos/python/operadores.md)
-1. [Inputs e Outputs](estudos/python/input-output.md)
-1. [Strings](estudos/python/strings.md)
-1. [Math](estudos/python/math.md)
-1. [Gerar Números aleatórios](estudos/python/aleatorios.md)
-1. [Datas](estudos/python/datas.md)
-
-## Comandos Condicionais e de Repetição
-
-1. [If..Else](estudos/python/if-else.md)
-1. [Switch](estudos/python/#) - Não há
-1. [Pass](estudos/python/pass.md)
-1. [While](estudos/python/while.md)
-1. [Do...While](estudos/python/#) - Não há
-1. [For](estudos/python/for.md)
-
-## Estruturas de Dados
-
-1. [Arrays](estudos/python/#) - Não há (usamos listas ou lib NumPy)
-1. [Listas](estudos/python/listas.md)
-1. [Tuplas](estudos/python/tuplas.md)
-1. [Conjuntos](estudos/python/conjuntos.md)
-1. [Dicionários](estudos/python/dicionarios.md)
-
-## Outros comandos
-
-1. [Funções](estudos/python/funcoes.md)
-1. [Lambda](estudos/python/lambda.md)
-1. [Recursão](estudos/python/recursao.md)
-1. [Arquivos](estudos/python/arquivos.md)
-1. [Exceções](estudos/python/excecoes.md)
-
-## POO
-
-1. [Modulos](estudos/python/modulos.md)
-1. [Bibliotecas](estudos/python/bibliotecas.md)
-1. [Classes](estudos/python/classes.md)
-
-## Exemplos diversos
-
-1. [Usando o webservice ViaCEP](estudos/python/ex-viacep.md)
-1. [Usando a API pokemons](estudos/python/ex-pokemon.md)
-1. [Pegar o código fonte de qualquer página](estudos/python/ex-source-code.md)
-
-# Diversos
-
+1. [Python](estudos/python/README.md)
 1. [Pandas](estudos/pandas/README.md)
+1. [Inteligência Artificial](estudos/inteligencia-artificial/README.md)
 1. [OpenCV](estudos/opencv/README.md)
 1. [GUI](estudos/gui/README.md)
-1. [GUI](estudos/gui/README.md)
-
-## Beecrowd
-
-1. [Executando localmente](estudos/bee-local.md)
+1. [Exercícios](estudos/exercicios/README.md)
