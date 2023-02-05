@@ -63,6 +63,8 @@
 # OpenCV
 
 1. [Sobre o OpenCV](estudos/opencv/about.md)
+1. [Lendo e exibindo uma imagem](estudos/opencv/lendo-exibindo.md)
+1. [Salvando uma copia de uma imagem](estudos/opencv/salvando-copia.md)
 
 # GUI
 
