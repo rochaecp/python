@@ -60,12 +60,6 @@
 
 1. [Olá Mundo](estudos/gui-pyqt5-ola-mundo.md)
 
-## Pandas
-
-#### Exemplos
-
-1. [Análise de Dados com Pandas](estudos/ex-pandas-frutas.md)
-
 ## Exemplos
 
 #### Geral
@@ -73,6 +67,10 @@
 1. [Usando o webservice ViaCEP](estudos/ex-viacep.md)
 1. [Usando a API pokemons](estudos/ex-pokemon.md)
 1. [Pegar o código fonte de qualquer página](estudos/ex-source-code.md)
+
+#### Pandas
+
+1. [Análise de Dados com Pandas](estudos/ex-pandas-frutas.md)
 
 ## Beecrowd
 
