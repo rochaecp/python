@@ -2,4 +2,4 @@
 
 ## Beecrowd
 
-1. [Executando localmente](beecrowd/lendo-entradas.md)
+1. [Lendo uma entrada](beecrowd/lendo-entradas.md)
