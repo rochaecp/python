@@ -20,7 +20,9 @@ minha_string = "bom" + " dia"
 ## Acessando caracteres da String
 
 ~~~python
+minha_string = "Mauricio"
 primeiro_caractere = minha_string[0]
+ultimo_caractere = minha_string[-1] 
 ~~~
 
 ## Acessando cada caractere da String
@@ -33,7 +35,7 @@ for x in minha_string:
 ## Obtendo fatias da String
 
 ~~~python
-minha_string_2 = minha_string_1[-1]  # último
+minha_string = "Mauricio"
 minha_string_2 = minha_string_1[2:5] # posição 2 até a 5 (não incluída)
 minha_string_2 = minha_string_1[:5]  # do início
 minha_string_2 = minha_string_1[2:]  # até o fim
@@ -61,10 +63,11 @@ minha_string = chr(35)  # string - character whose Unicode code point is the int
 ## Testando a string
 
 ~~~python
-meu_boolean = "a" in minhaString 
-meu_boolean = "a" not in minhaString
-meu_boolean = "aaa" < "bbb"  
-meu_boolean = "aaa" == "bbb" 
+minha_string = 'Mauricio'
+meu_boolean = "a" in minha_string       # True
+meu_boolean = "a" not in minha_string   # False
+meu_boolean = "abacate" < "batata"      # True
+meu_boolean = "abacate" == "batata"     # False
 ~~~
 
 ## Strings com múltiplas linhas
