@@ -5,4 +5,6 @@
 1. [Inteligência Artificial](estudos/inteligencia-artificial/README.md)
 1. [OpenCV](estudos/opencv/README.md)
 1. [GUI](estudos/gui/README.md)
+1. [PyPDF2](estudos/pypdf2/README.md)
+1. [PyMuPDF](estudos/pymupdf/README.md)
 1. [Exercícios](estudos/exercicios/README.md)
