@@ -78,6 +78,43 @@ Rocha
 """
 ~~~
 
+## Tornando string maiúscula
+
+~~~python
+minha_string = "maurício"
+minha_string_maiusc = minha_string.upper()
+~~~
+
+## Tornando string minúscula
+
+~~~python
+minha_string = "maurício"
+minha_string_minusc = minha_string.lower()
+~~~
+
+## Substituindo caracteres da string
+
+Substitui todas as ocorrências na string.  
+
+~~~python
+minha_string = "mauricio"
+minha_string_modif = minha_string.replace('i', 'X')
+~~~
+
+## Transformando string em uma lista
+
+~~~python
+minha_string = "banana tomate maçã"
+minha_lista = minha_string.split(' ') # ' ' é o separador: ['banana', 'tomate', 'maçã']
+~~~
+
+## Removendo espaços iniciais e finais de uma string
+
+~~~python
+minha_string = " mauricio "
+minha_string_sem_esp = minha_string.strip()
+~~~
+
 ## Algumas funções
 
 ~~~python
