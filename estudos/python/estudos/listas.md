@@ -5,7 +5,7 @@
 - No Python, são objetos do tipo list.
 - Não se pode copiar uma lista fazendo apenas ``` list2 = list1 ```. É necessário usar o método ```copy()```.
 
-## Criando uma lista
+## Criar uma lista
 
 ~~~python
 my_list = []
@@ -13,7 +13,7 @@ my_list = [1, 2, 3, 4]
 my_list = ["apple", "banana", "cherry"]
 ~~~
 
-## Criando uma lista com o construtor list()
+## Criar uma lista com o construtor list()
 
 ~~~python
 my_list = list("my_string")
@@ -21,7 +21,7 @@ my_list = list(my_tuple)
 my_list = list(my_set)
 ~~~
 
-## Acessando um elemento de uma lista
+## Acessar um elemento de uma lista
 
 ~~~python
 item = my_list[0]   # first
@@ -29,7 +29,7 @@ item = my_list[-1]  # last
 item = my_list[-2]
 ~~~
 
-## Acessando todos os elementos de uma lista
+## Acessar todos os elementos de uma lista
 
 ~~~python
 my_list = ["apple", "banana", "cherry"]
@@ -56,7 +56,7 @@ my_list = ["apple", "banana", "cherry"]
 [print(x) for x in my_list] 
 ~~~
 
-## Obtendo fatias da lista
+## Obter fatias da lista
 
 ~~~python
 my_list = my_list[2:5]  # 2 (included) and end at index 5 (not included)
@@ -67,18 +67,18 @@ my_list = my_list[-2:]
 my_list = my_list[-4:-1]
 ~~~
 
-## Verificando se um valor está contido na lista
+## Verificar se um valor está contido na lista
 
 ~~~python
 if "apple" in my_list:
     print("Sim")
 ~~~
 
-## Modificando o valor de um item
+## Modificar o valor de um item
 
 ~~~python
 my_list[0] = "apple"
-my_list[1:3] = ["apple", "cherry"] # mudando uma fatia da lista
+my_list[1:3] = ["apple", "cherry"] # mudar uma fatia da lista
 ~~~
 
 ## Inserindo itens em uma lista
@@ -90,7 +90,7 @@ my_list.extend(my_list2) # add elementsof my_list2 to the end of my_list
 my_list.extend(my_tuple) # add any iterable objects (tuple, set, dictionarie, etc)
 ~~~
 
-## Removendo itens de uma lista
+## Remover itens de uma lista
 
 ~~~python
 my_list.remove("apple")
@@ -117,7 +117,7 @@ my_list = [x for x in range(10) if x % 2 == 0]
 my_list = [x if x != "banana" else "orange" for x in fruits] # returns orange instead of banana
 ~~~
 
-## Ordenando Listas
+## Ordenar Listas
 
 ~~~python
 my_list.sort() # all capital letters being sorted before lower case letters == case sensitive
@@ -134,14 +134,14 @@ my_list = [100, 50, 65, 82, 23]
 my_list.sort(key = myFunction)
 ~~~
 
-Ordena usando case insensitive:
+Ordena usar case insensitive:
 
 ~~~python
 my_list = ["banana", "Orange", "Kiwi", "cherry"]
 my_list.sort(key = str.lower)
 ~~~
 
-## Copiando uma lista
+## Copiar uma lista
 
 ~~~python
 my_list_cpy = my_list.copy()
@@ -151,7 +151,7 @@ my_list_cpy = my_list.copy()
 my_list_cpy = list(my_list)
 ~~~
 
-## Juntando duas listas
+## Juntar duas listas
 
 ~~~python
 list3 = list1 + list2
@@ -166,7 +166,7 @@ for x in list2:
     list1.append(x)
 ~~~
 
-## Eliminando itens duplicados
+## Eliminar itens duplicados
 
 ~~~python
 my_list = [5, 1, 1, 2, 2, 3, 4, 4]
@@ -174,37 +174,37 @@ my_set = set(my_list)
 my_list = list(my_set)
 ~~~
 
-## Contando quantas vezes um elemento aparece na lista
+## Contar quantas vezes um elemento aparece na lista
 
 ~~~python
 counter = my_list.count("apple")
 ~~~
 
-## Obtendo o índice de um elemento da lista
+## Obter o índice de um elemento da lista
 
 ~~~python
 index = my_list.index("apple")
 ~~~
 
-## Obtendo o tamanho da lista
+## Obter o tamanho da lista
 
 ~~~python
 my_len = len(my_list)
 ~~~
 
-## Obtendo a soma dos elementos da lista
+## Obter a soma dos elementos da lista
 
 ~~~python
 my_sum = sum(my_list)
 ~~~
 
-## Obtendo o maior elemento da lista
+## Obter o maior elemento da lista
 
 ~~~python
 my_max = max(my_list)
 ~~~
 
-## Obtendo o menor elemento da lista
+## Obter o menor elemento da lista
 
 ~~~python
 my_min = min(my_list)
