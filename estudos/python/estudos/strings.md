@@ -4,20 +4,28 @@ Strings são Arrays de bytes que representam caracteres unicode.
 'hello' é o mesmoq que "hello"  
 Python não possui um tipo caractere (usamos uma string com tamanho 1).  
 
-## Criando uma String
+## Criar strings
 
 ~~~python
 minha_string_1 = "abcdefg"
 minha_string_2 = 'abcdefg'
 ~~~
 
-## Concatenação
+## Criar strings com múltiplas linhas
+
+~~~python
+a = """Mauricio
+Rocha
+"""
+~~~
+
+## Concatenar strings
 
 ~~~python
 minha_string = "bom" + " dia" 
 ~~~
 
-## Acessando caracteres da String
+## Acessar caracteres de uma strings
 
 ~~~python
 minha_string = "Mauricio"
@@ -25,14 +33,12 @@ primeiro_caractere = minha_string[0]
 ultimo_caractere = minha_string[-1] 
 ~~~
 
-## Acessando cada caractere da String
-
 ~~~python
 for x in minha_string:
   print(x)
 ~~~
 
-## Obtendo fatias da String
+## Obter fatias de uma string
 
 ~~~python
 minha_string = "Mauricio"
@@ -42,25 +48,25 @@ minha_string_2 = minha_string_1[2:]  # até o fim
 minha_string_2 = minha_string_1[-3:] # últimos 3
 ~~~
 
-## Tamanho da String
+## Obter o tamanho de uma string
 
 ~~~python
 tamanho = len(minha_string)
 ~~~
 
-## Obtendo o Unicode de uma String
+## Obter o unicode de uma string
 
 ~~~python
 meu_unicode = ord("A") 
 ~~~
 
-## Obtendo um caractere a partir de um Unicode
+## Obter um caractere a partir de um unicode
 
 ~~~python
 minha_string = chr(35)  # string - character whose Unicode code point is the integer
 ~~~
 
-## Testando a string
+## Testar uma string
 
 ~~~python
 minha_string = 'Mauricio'
@@ -70,29 +76,21 @@ meu_boolean = "abacate" < "batata"      # True
 meu_boolean = "abacate" == "batata"     # False
 ~~~
 
-## Strings com múltiplas linhas
-
-~~~python
-a = """Mauricio
-Rocha
-"""
-~~~
-
-## Tornando string maiúscula
+## Tornar uma string maiúscula
 
 ~~~python
 minha_string = "maurício"
 minha_string_maiusc = minha_string.upper()
 ~~~
 
-## Tornando string minúscula
+## Tornar uma string minúscula
 
 ~~~python
 minha_string = "maurício"
 minha_string_minusc = minha_string.lower()
 ~~~
 
-## Substituindo caracteres da string
+## Substituir caracteres de uma string
 
 Substitui todas as ocorrências na string.  
 
@@ -101,26 +99,47 @@ minha_string = "mauricio"
 minha_string_modif = minha_string.replace('i', 'X')
 ~~~
 
-## Transformando string em uma lista
+## Modificar um caractere em um determinado índice de uma string
+
+~~~python
+minha_string = "Mauricio"
+minha_lista = list(minha_string)
+minha_lista[0] = "X"
+minha_string = "".join(minha_lista) # Xauricio
+~~~
+
+~~~python
+minha_string = "Mauricio"
+minha_string = minha_string[:0] + 'X' + minha_string[1:] # Xauricio
+~~~
+
+## Transformar uma string em uma lista
 
 ~~~python
 minha_string = "banana tomate maçã"
 minha_lista = minha_string.split(' ') # ' ' é o separador: ['banana', 'tomate', 'maçã']
 ~~~
 
-## Removendo espaços iniciais e finais de uma string
+## Remover espaços iniciais e finais de uma string
 
 ~~~python
 minha_string = " mauricio "
 minha_string_sem_esp = minha_string.strip()
 ~~~
 
-## Algumas funções
+## Juntar os elementos de uma lista, tupla ou dicionário em uma string
 
 ~~~python
-minha_string_2 = minha_string_1.upper()
-minha_string_2 = minha_string_1.lower()
-minha_string_2 = minha_string_1.replace("a", "x")
-minha_string_2 = minha_string_1.split(" ")
-minha_string_2 = minha_string_1.strip() # remove espaços em branco do início e fim
+minha_lista = ["Mauricio", "Maria", "Jose"]
+minha_string = " ".join(minha_lista)
+~~~
+
+~~~python
+minha_tupla = ("Mauricio", "Maria", "Jose")
+minha_string = " ".join(minha_tupla)
+~~~
+
+~~~python
+meu_dicionario = {"name": "Mauricio", "country": "Brazil"}
+my_join = ' '.join(meu_dicionario)
 ~~~
