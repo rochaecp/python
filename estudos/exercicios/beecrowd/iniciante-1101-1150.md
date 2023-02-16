@@ -84,3 +84,81 @@ while n != 0:
     except ZeroDivisionError:
         print("divisao impossivel")
 ~~~
+
+### 1117 - Validação de Nota
+
+~~~python
+
+~~~
+
+### 1118 - Várias Notas Com Validação
+
+~~~python
+
+~~~
+
+### 1131 - Grenais
+
+~~~python
+
+~~~
+
+### 1132 - Múltiplos de 13
+
+~~~python
+
+~~~
+
+### 1133 - Resto da Divisão
+
+~~~python
+
+~~~
+
+### 1134 - Tipo de Combustível
+
+~~~python
+
+~~~
+
+### 1142 - PUM
+
+~~~python
+
+~~~
+
+### 1143 - Quadrado e ao Cubo
+
+~~~python
+
+~~~
+
+### 1144 - Sequência Lógica
+
+~~~python
+
+~~~
+
+### 1145 - Sequência Lógica 2
+
+~~~python
+
+~~~
+
+### 1146 - Sequências Crescentes
+
+~~~python
+
+~~~
+
+### 1149 - Somando Inteiros Consecutivos
+
+~~~python
+
+~~~
+
+### 1150 - Ultrapassando Z
+
+~~~python
+
+~~~
