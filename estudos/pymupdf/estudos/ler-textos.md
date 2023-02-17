@@ -1,0 +1,1 @@
+# Pymupdf - Ler textos de um PDF
