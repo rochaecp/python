@@ -1,5 +1,20 @@
 # Python - Beecrowd
 
+## Lendo uma entrada a partir de um arquivo
+
+Arquivo **Main.py**:
+
+~~~python
+primeira_linha = input()
+print(primeira_linha)
+~~~
+
+Para ler a partir de um arquivo **entrada.txt**:
+
+~~~bash
+cat .\entrada.txt | python .\Main.py
+~~~
+
 ## Lendo uma entrada
 
 ~~~python
