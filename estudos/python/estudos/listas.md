@@ -8,98 +8,107 @@
 ## Criar uma lista
 
 ~~~python
-my_list = []
-my_list = [1, 2, 3, 4]
-my_list = ["apple", "banana", "cherry"]
+minha_lista = []
+minha_lista = [1, 2, 3, 4]
+minha_lista = ["apple", "banana", "cherry"]
 ~~~
 
 ## Criar uma lista com o construtor list()
 
 ~~~python
-my_list = list("my_string")
-my_list = list(my_tuple)
-my_list = list(my_set)
+minha_lista = list("my_string")
+minha_lista = list(minha_tupla)
+minha_lista = list(meu_conjunto)
+~~~
+
+## Obter o tamanho da lista
+
+~~~python
+minha_lista = [1, 2, 3, 4]
+my_len = len(minha_lista)   # 4
 ~~~
 
 ## Acessar um elemento de uma lista
 
 ~~~python
-item = my_list[0]   # first
-item = my_list[-1]  # last
-item = my_list[-2]
+minha_lista = [1, 2, 3, 4]
+item = minha_lista[0]   # 1
+item = minha_lista[-1]  # 4
+item = minha_lista[-2]  # 3
+~~~
+
+## Acessar fatias de uma lista
+
+~~~python
+minha_lista = [1, 2, 3, 4, 5, 6, 7, 8]
+minha_lista = minha_lista[2:5]      # [3, 4, 5]
+minha_lista = minha_lista[:3]       # [1, 2, 3]
+minha_lista = minha_lista[0:3]      # [1, 2, 3]
+minha_lista = minha_lista[2:]       # [3, 4, 5, 6, 7, 8]
+minha_lista = minha_lista[-2:]      # [7, 8]
+minha_lista = minha_lista[-4:-1]    # [5, 6, 7]
 ~~~
 
 ## Acessar todos os elementos de uma lista
 
 ~~~python
-my_list = ["apple", "banana", "cherry"]
-for x in my_list:
+minha_lista = ["apple", "banana", "cherry"]
+for x in minha_lista:
     print(x) 
 ~~~
 
 ~~~python
-my_list = ["apple", "banana", "cherry"]
-for i in range(len(my_list)):
-    print(my_list[i]) 
+minha_lista = ["apple", "banana", "cherry"]
+for i in range(len(minha_lista)):
+    print(minha_lista[i]) 
 ~~~
 
 ~~~python
-my_list = ["apple", "banana", "cherry"]
+minha_lista = ["apple", "banana", "cherry"]
 i = 0
-while i < len(my_list):
-    print(my_list[i])
+while i < len(minha_lista):
+    print(minha_lista[i])
     i = i + 1
 ~~~
 
 ~~~python
-my_list = ["apple", "banana", "cherry"]
-[print(x) for x in my_list] 
-~~~
-
-## Obter fatias da lista
-
-~~~python
-my_list = my_list[2:5]  # 2 (included) and end at index 5 (not included)
-my_list = my_list[:3]   # start at the first item, 3 (not included)
-my_list = my_list[0:3]
-my_list = my_list[2:]   # 2 (included) to the end 
-my_list = my_list[-2:]
-my_list = my_list[-4:-1]
+minha_lista = ["apple", "banana", "cherry"]
+[print(x) for x in minha_lista] 
 ~~~
 
 ## Verificar se um valor está contido na lista
 
 ~~~python
-if "apple" in my_list:
+if "apple" in minha_lista:
     print("Sim")
 ~~~
 
 ## Modificar o valor de um item
 
 ~~~python
-my_list[0] = "apple"
-my_list[1:3] = ["apple", "cherry"] # mudar uma fatia da lista
+minha_lista[0] = "apple"
+minha_lista[1:3] = ["apple", "cherry"] # mudar uma fatia da lista
 ~~~
 
 ## Inserindo itens em uma lista
 
 ~~~python
-my_list.insert(1, "apple") # inserts an item at the specified index
-my_list.append("apple") # add to the end
-my_list.extend(my_list2) # add elementsof my_list2 to the end of my_list
-my_list.extend(my_tuple) # add any iterable objects (tuple, set, dictionarie, etc)
+minha_lista.insert(1, "apple") # inserts an item at the specified index
+minha_lista.append("apple") # add to the end
+minha_lista.extend(minha_lista2) # add elementsof minha_lista2 to the end of minha_lista
+minha_lista.extend(minha_tupla) # add any iterable objects (tuple, set, dictionarie, etc)
 ~~~
 
 ## Remover itens de uma lista
 
 ~~~python
-my_list.remove("apple")
-my_list.pop(1) # removes the specified index
-my_list.pop(-1) # removes the last item
-my_list.pop() # removes the last item
-del my_list[0] # removes the specified index
-del my_list # delete the list completely
-my_list.clear()
+minha_lista.remove("apple")
+minha_lista.pop(1) # removes the specified index
+minha_lista.pop(-1) # removes the ultimo item
+minha_lista.pop() # removes the ultimo item
+del minha_lista[0] # removes the specified index
+del minha_lista # delete the list completely
+minha_lista.clear()
 ~~~
 
 ## List Comprehension
@@ -108,21 +117,21 @@ my_list.clear()
 
 ~~~python
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-my_list = [x for x in fruits] # copy the list fruits
-my_list = [x for x in fruits if "a" in x] # fruits with the letter "a" in the name
-my_list = [x for x in fruits if x[0] == "a"]
-my_list = [x.upper() for x in fruits] 
-my_list = [x * 2 for x in range(10)]
-my_list = [x for x in range(10) if x % 2 == 0]
-my_list = [x if x != "banana" else "orange" for x in fruits] # returns orange instead of banana
+minha_lista = [x for x in fruits] # copy the list fruits
+minha_lista = [x for x in fruits if "a" in x] # fruits with the letter "a" in the name
+minha_lista = [x for x in fruits if x[0] == "a"]
+minha_lista = [x.upper() for x in fruits] 
+minha_lista = [x * 2 for x in range(10)]
+minha_lista = [x for x in range(10) if x % 2 == 0]
+minha_lista = [x if x != "banana" else "orange" for x in fruits] # returns orange instead of banana
 ~~~
 
 ## Ordenar Listas
 
 ~~~python
-my_list.sort() # all capital letters being sorted before lower case letters == case sensitive
-my_list.sort(reverse = True)
-my_list.reverse()
+minha_lista.sort() # all capital letters being sorted before lower case letters == case sensitive
+minha_lista.sort(reverse = True)
+minha_lista.reverse()
 ~~~
 
 Ordena elementos baseado no quão próximos eles estão de 50:
@@ -130,25 +139,25 @@ Ordena elementos baseado no quão próximos eles estão de 50:
 ~~~python
 def myFunction(n):
     return abs(n - 50)
-my_list = [100, 50, 65, 82, 23]
-my_list.sort(key = myFunction)
+minha_lista = [100, 50, 65, 82, 23]
+minha_lista.sort(key = myFunction)
 ~~~
 
 Ordena usar case insensitive:
 
 ~~~python
-my_list = ["banana", "Orange", "Kiwi", "cherry"]
-my_list.sort(key = str.lower)
+minha_lista = ["banana", "Orange", "Kiwi", "cherry"]
+minha_lista.sort(key = str.lower)
 ~~~
 
 ## Copiar uma lista
 
 ~~~python
-my_list_cpy = my_list.copy()
+minha_lista_cpy = minha_lista.copy()
 ~~~
 
 ~~~python
-my_list_cpy = list(my_list)
+minha_lista_cpy = list(minha_lista)
 ~~~
 
 ## Juntar duas listas
@@ -169,43 +178,37 @@ for x in list2:
 ## Eliminar itens duplicados
 
 ~~~python
-my_list = [5, 1, 1, 2, 2, 3, 4, 4]
-my_set = set(my_list)
-my_list = list(my_set)
+minha_lista = [5, 1, 1, 2, 2, 3, 4, 4]
+meu_conjunto = set(minha_lista)
+minha_lista = list(meu_conjunto)
 ~~~
 
 ## Contar quantas vezes um elemento aparece na lista
 
 ~~~python
-counter = my_list.count("apple")
+counter = minha_lista.count("apple")
 ~~~
 
 ## Obter o índice de um elemento da lista
 
 ~~~python
-index = my_list.index("apple")
-~~~
-
-## Obter o tamanho da lista
-
-~~~python
-my_len = len(my_list)
+index = minha_lista.index("apple")
 ~~~
 
 ## Obter a soma dos elementos da lista
 
 ~~~python
-my_sum = sum(my_list)
+my_sum = sum(minha_lista)
 ~~~
 
 ## Obter o maior elemento da lista
 
 ~~~python
-my_max = max(my_list)
+my_max = max(minha_lista)
 ~~~
 
 ## Obter o menor elemento da lista
 
 ~~~python
-my_min = min(my_list)
+my_min = min(minha_lista)
 ~~~
