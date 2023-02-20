@@ -84,8 +84,15 @@ if "apple" in minha_lista:
 ## Modificar um item de uma lista
 
 ~~~python
-minha_lista[0] = "apple"
-minha_lista[1:3] = ["apple", "cherry"] # mudar uma fatia da lista
+minha_lista = ["Maçã", "Banana", "Tomate"]
+minha_lista[0] = "Pera" # ['Pera', 'Banana', 'Tomate']
+~~~
+
+## Modificar uma fatia de uma lista
+
+~~~python
+minha_lista = ["Maçã", "Banana", "Tomate", "Pera"]
+minha_lista[1:3] = ["Mamão", "Abacate"] # ['Maçã', 'Mamão', 'Abacate', 'Pera']
 ~~~
 
 ## Inserir itens em uma lista
@@ -140,30 +147,32 @@ minha_lista = ['Mauricio', 'Tesla', 'Newton', 'Turing']
 minha_lista.clear() # []
 ~~~
 
-## List Comprehension
-
-útil para criar uma lista baseada em outra já existente.
-
-~~~python
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-minha_lista = [x for x in fruits] # copy the list fruits
-minha_lista = [x for x in fruits if "a" in x] # fruits with the letter "a" in the name
-minha_lista = [x for x in fruits if x[0] == "a"]
-minha_lista = [x.upper() for x in fruits] 
-minha_lista = [x * 2 for x in range(10)]
-minha_lista = [x for x in range(10) if x % 2 == 0]
-minha_lista = [x if x != "banana" else "orange" for x in fruits] # returns orange instead of banana
-~~~
-
 ## Ordenar Listas
 
+#### Ordenar lista de strings de modo crescente (case sensitive)
+
+O método sort() é case sensitive.  
+
 ~~~python
-minha_lista.sort() # all capital letters being sorted before lower case letters == case sensitive
-minha_lista.sort(reverse = True)
-minha_lista.reverse()
+minha_lista = ['Newton', 'Mauricio', 'mauricio', 'Tesla']
+minha_lista.sort() # ['Mauricio', 'Newton', 'Tesla', 'mauricio']
 ~~~
 
-Ordena elementos baseado no quão próximos eles estão de 50:
+#### Ordenar lista de strings de modo crescente (case insensitive)
+
+~~~python
+minha_lista = ['Newton', 'Mauricio', 'mauricio', 'Tesla']
+minha_lista.sort(key = str.lower) # ['Mauricio', 'mauricio', 'Newton', 'Tesla']
+~~~
+
+#### Ordenar lista de inteiros de modo decrescente
+
+~~~python
+minha_lista = [0, 3, 1, 2]
+minha_lista.sort(reverse = True) # [3, 2, 1, 0]
+~~~
+
+#### Ordenar os elementos de uma lista baseado no quão próximos eles estão de 50
 
 ~~~python
 def myFunction(n):
@@ -172,11 +181,11 @@ minha_lista = [100, 50, 65, 82, 23]
 minha_lista.sort(key = myFunction)
 ~~~
 
-Ordena usar case insensitive:
+## Inverter a ordem dos elementos de uma lista
 
 ~~~python
-minha_lista = ["banana", "Orange", "Kiwi", "cherry"]
-minha_lista.sort(key = str.lower)
+minha_lista = [0, 3, 1, 2]
+minha_lista.reverse() # [2, 1, 3, 0]
 ~~~
 
 ## Copiar uma lista
@@ -222,30 +231,54 @@ minha_lista = list(meu_conjunto)
 
 ## Contar quantas vezes um elemento aparece na lista
 
+O método count() é case sensitive.  
+
 ~~~python
-counter = minha_lista.count("apple")
+minha_lista = ['Newton', 'Mauricio', 'Mauricio', 'Tesla']
+nro_repetidos = minha_lista.count("Mauricio") # 2
 ~~~
 
 ## Obter o índice de um elemento da lista
 
+O método index() retorna a posição da primeira correspondência.  
+
 ~~~python
-index = minha_lista.index("apple")
+minha_lista = ['Newton', 'Mauricio', 'Mauricio', 'Tesla']
+indice = minha_lista.index('Mauricio') # 1
 ~~~
 
 ## Obter a soma dos elementos da lista
 
 ~~~python
-my_sum = sum(minha_lista)
+minha_lista = [1, 3, 6, 5]
+soma = sum(minha_lista) # 15
 ~~~
 
 ## Obter o maior elemento da lista
 
 ~~~python
-my_max = max(minha_lista)
+minha_lista = [1, 3, 6, 5]
+maior = max(minha_lista) # 6
 ~~~
 
 ## Obter o menor elemento da lista
 
 ~~~python
-my_min = min(minha_lista)
+minha_lista = [1, 3, 6, 5]
+menor = min(minha_lista) # 1
+~~~
+
+## List Comprehension
+
+útil para criar uma lista baseada em outra já existente.
+
+~~~python
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+minha_lista = [x for x in fruits] # copy the list fruits
+minha_lista = [x for x in fruits if "a" in x] # fruits with the letter "a" in the name
+minha_lista = [x for x in fruits if x[0] == "a"]
+minha_lista = [x.upper() for x in fruits] 
+minha_lista = [x * 2 for x in range(10)]
+minha_lista = [x for x in range(10) if x % 2 == 0]
+minha_lista = [x if x != "banana" else "orange" for x in fruits] # returns orange instead of banana
 ~~~
