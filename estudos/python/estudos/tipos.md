@@ -1,26 +1,24 @@
-# Python - Tipos de Dados
+# Python - Tipos de dados
 
-- Numéricos
-    - ```int```
-    - ```float```
-    - ```complex``` (ex.: 1j) 
-- String
-    - ```str```
-- Booleano
-  - ```bool```
-- Binário
-    - ```bytes```
-    - ```bytearray```
-    - ```memoryview```
-- Sequências
-    - ```list```
-    - ```tuple```
-    - ```range```
-- Dicionários 	
-    - ```dict```
-- Conjuntos
-    - ```set```
-    - ```frozenset```
+## Tipos de dados
+
+| Categoria | Tipo              | Tamanho   | Exemplo |
+| ---       | ---               | ---       | ---     |
+| Numérico  | ```int```         |           | x = 1   |
+| Numérico  | ```float```       |           | y = 2.8 |
+| Numérico  | ```complex```     |           | z = 1j  |
+| String    | ```str```         |           | x = "Olá mundo" |
+| Booleano  | ```bool```        |           | x = True |
+| Binário   | ```bytes```       |           |         |
+| Binário   | ```bytearray```   |           |         |
+| Binário   | ```memoryview```  |           |         |
+| Sequência | ```list```        |           | x = [1, 2] |
+| Sequência | ```tuple```       |           | x = (1, 2) |
+| Sequência | ```range```       |           |         |
+| Dicionário| ```dict```        |           |         |
+| Conjunto  | ```set```         |           |         |
+| Conjunto  | ```frozenset```   |           |         |
+
 
 ## Obtendo o tipo de uma variavel
 
@@ -28,21 +26,13 @@
 myType = type(minhaVariavel)
 ~~~
 
-## Tipos numéricos
-
-~~~python
-x = 1    # int
-y = 2.8  # float
-z = 1j   # complex
-~~~
-
 ## Tipo Booleano
 
-- Representam os valores: ```True``` ou ```False```.
-- Qualquer string é True, exceto uma string vazia.
-- Qualquer número é True, exceto o 0.
-- Qualquer list, tuple, set e dict é true, exceto se estiver vazio.
-- Valores falsos: ```()```, ```[]```, ```{}```, ```""```, ```0```, ```None```, ```False```.
+Representam os valores: ```True``` ou ```False```.   
+Qualquer string é True, exceto uma string vazia.   
+Qualquer número é True, exceto o 0.   
+Qualquer list, tuple, set e dict é true, exceto se estiver vazio.   
+Valores falsos: ```()```, ```[]```, ```{}```, ```""```, ```0```, ```None```, ```False```.   
 
 ~~~python
 # True

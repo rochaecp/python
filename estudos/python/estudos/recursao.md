@@ -1,6 +1,6 @@
 # Python - Recursão
 
-- São funções que chamam a si mesmas.
+São funções que chamam a si mesmas.  
 
 ~~~python
 def recursao(k):

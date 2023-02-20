@@ -13,7 +13,7 @@
 1. [Tipos de Dados](estudos/tipos.md)
 1. [Casting](estudos/casting.md)
 1. [Operadores](estudos/operadores.md)
-1. [Inputs e Outputs](estudos/input-output.md)
+1. [Inputs e Outputs pelo console](estudos/input-output.md)
 1. [Strings](estudos/strings.md)
 1. [Math](estudos/math.md)
 1. [Gerar Números aleatórios](estudos/aleatorios.md)

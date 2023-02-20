@@ -1,9 +1,9 @@
 # Python - Módulos
 
-- Cada arquivo .py é um módulo.
-- Em um módulo podemos ter diversas classes.
-- Uma classe não precisa possuir o mesmo nome do módulo que a contém.
-- Importamos módulos omitindo a extensão .py.
+Cada arquivo .py é um módulo.  
+Em um módulo podemos ter diversas classes.  
+Uma classe não precisa possuir o mesmo nome do módulo que a contém.  
+Importamos módulos omitindo a extensão .py.  
 
 ## Criando de uma classe em um módulo
 

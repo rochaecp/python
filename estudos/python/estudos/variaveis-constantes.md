@@ -2,11 +2,11 @@
 
 ## Variáveis
 
-- Em Python, variáveis são criadas quando atribuímos valores a elas.
-- Variáveis com nomes compostos:
-    - Camel Case
-    - Pascal Case
-    - Snake Case
+Em Python, variáveis são criadas quando atribuímos valores a elas.  
+Para variáveis com nomes compostos utilizar:
+- Camel Case
+- Pascal Case
+- Snake Case
 
 ~~~python
 x = 2     # int

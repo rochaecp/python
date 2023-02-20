@@ -1,9 +1,9 @@
 # Python - Classes e Objects
 
-- Tudo em Python são objetos com propriedades e métodos.
-- Todas as classes têm uma função chamada ```__init__()``` que é sempre executada quando a classe é instanciada.
-- Use a função __init__() como método construtor.
-- O parâmetro self é uma referência a instáncia corrente da classe e é usado para acessar variáveis que pertencem a classe.
+Tudo em Python são objetos com propriedades e métodos.  
+Todas as classes têm uma função chamada ```__init__()``` que é sempre executada quando a classe é instanciada.  
+Use a função __init__() como método construtor.  
+O parâmetro self é uma referência a instáncia corrente da classe e é usado para acessar variáveis que pertencem a classe.  
 
 ## Criando uma classe
 

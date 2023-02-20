@@ -1,9 +1,8 @@
 # Python - Lambda
 
-- Uma função lambda é uma função anônima. 
-- Pode ter muitos argumentos mas apenas uma expressão
-- Sintaxe:
-    - ```lambda argumentos : expressão```
+Uma função lambda é uma função anônima.   
+Pode ter muitos argumentos mas apenas uma expressão  
+Sintaxe: ```lambda argumentos : expressão```  
 
 ~~~python
 my_sum = lambda a, b: a + b 

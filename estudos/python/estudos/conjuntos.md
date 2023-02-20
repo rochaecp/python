@@ -1,7 +1,7 @@
 # Python - Conjuntos (sets)
 
-- Um conjunto (set) é uma coleção não ordenada, **imutável**, não indexada e **não permite itens duplicados**.
-- Os itens de um conjunto podem ser de qualquer tipo.
+Um conjunto (set) é uma coleção não ordenada, **imutável**, não indexada e **não permite itens duplicados**.  
+Os itens de um conjunto podem ser de qualquer tipo.  
 
 ## Criando um conjunto
 
@@ -29,9 +29,9 @@ my_len = len(my_set)
 
 ## Acessando itens de um conjunto
 
-- Não é possível utilizar um index ou uma chave.
+Não é possível utilizar um index ou uma chave.  
 
-Acessando todos elementos do conjunto:
+#### Acessando todos elementos do conjunto:
 
 ~~~python
 for x in my_set:
@@ -50,21 +50,21 @@ my_bool = "banana" in my_set
 
 ## Adicionando itens a um conjunto
 
-- Os itens repetidos são removidos.
+Os itens repetidos são removidos.  
 
-Adicionando um item:
+#### Adicionando um item:
 
 ~~~python
 my_set.add("laranja")
 ~~~
 
-Adicionando todos os itens de outro conjunto:
+#### Adicionando todos os itens de outro conjunto
 
 ~~~python
 my_set.update(my_set2)
 ~~~
 
-Adicionando todos itens de uma lista: 
+#### Adicionando todos itens de uma lista: 
 
 ~~~python
 my_set.update(my_list)

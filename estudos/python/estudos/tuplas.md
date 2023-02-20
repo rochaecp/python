@@ -1,8 +1,8 @@
-# Python - Tuplas
+# Python Tuplas
 
-- Uma tupla é uma coleção ordenada e não modificável.
-- Permite elementos duplicados.
-- Para modificar uma tupla podemos transformá-la em uma lista.
+Uma tupla é uma coleção ordenada e não modificável.  
+Permite elementos duplicados.  
+Para modificar uma tupla podemos transformá-la em uma lista.  
 
 ## Criando uma tupla
 
@@ -10,8 +10,7 @@
 my_tuple = ("apple", "banana", "cherry")
 ~~~
 
-Construtor:
-- Observe os parênteses repetidos
+#### Construtor (observe os parênteses repetidos)  
 
 ~~~python
 my_tuple = tuple(("apple", "banana", "cherry")) 
