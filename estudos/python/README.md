@@ -9,11 +9,11 @@
 ## Introdução
 
 1. [Sobre o Python](estudos/about.md)
-1. [Variáveis e Constantes](estudos/variaveis-constantes.md)
 1. [Tipos de Dados](estudos/tipos.md)
-1. [Casting](estudos/casting.md)
+1. [Variáveis e Constantes](estudos/variaveis-constantes.md)
 1. [Operadores](estudos/operadores.md)
-1. [Inputs e Outputs pelo console](estudos/input-output.md)
+1. [Casting](estudos/casting.md)
+1. [Inputs e outputs pelo console](estudos/input-output.md)
 1. [Strings](estudos/strings.md)
 1. [Math](estudos/math.md)
 1. [Gerar Números aleatórios](estudos/aleatorios.md)
@@ -36,7 +36,7 @@
 1. [Conjuntos](estudos/conjuntos.md)
 1. [Dicionários](estudos/dicionarios.md)
 
-## Outros comandos
+## Outros
 
 1. [Funções](estudos/funcoes.md)
 1. [Lambda](estudos/lambda.md)
