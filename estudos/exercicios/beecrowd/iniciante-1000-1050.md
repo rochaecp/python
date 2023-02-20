@@ -14,7 +14,7 @@ b = int(input())
 x = str(a + b)
 print("X = " + x)
 ~~~
-      
+    
 ### 1002 - Área do Círculo
 
 ~~~python
@@ -22,7 +22,7 @@ r = float(input())
 a = 3.14159 * r * r
 print("A=%0.4f" %a)
 ~~~
-      
+    
 ### 1003 - Soma Simples 
 
 ~~~python
@@ -31,7 +31,7 @@ b = int(input())
 soma = a + b
 print("SOMA = {}".format(soma))
 ~~~
-      
+    
 ### 1004 - Produto Simples 
 
 ~~~python
@@ -40,7 +40,7 @@ b = int(input())
 prod = a * b
 print("PROD = %i" %prod)
 ~~~
-      
+    
 ### 1005 - Média 1 
 
 ~~~python
@@ -49,7 +49,7 @@ b = float(input())
 media = (3.5 * a + 7.5 * b) / 11
 print("MEDIA = %.5f" %media)
 ~~~
-      
+    
 ### 1006 - Média 2 
 
 ~~~python
@@ -59,7 +59,7 @@ c = float(input())
 media = (2 * a + 3 * b + 5 * c) / 10
 print("MEDIA = {:.1f}".format(media))
 ~~~
-      
+    
 ### 1007 - Diferença 
 
 ~~~python
@@ -70,7 +70,7 @@ d = int(input())
 dif = a * b - c * d
 print("DIFERENCA = {}".format(dif))
 ~~~
-      
+    
 ### 1008 - Salário 
 
 ~~~python
@@ -78,7 +78,7 @@ s = h * v
 print("NUMBER = {}".format(n))
 print("SALARY = U$ {:.2f}".format(s))
 ~~~
-      
+    
 ### 1009 - Salário com Bônus 
 
 ~~~python
@@ -137,9 +137,9 @@ c = int(linha[2])
 maiorAB = (a + b + abs(a - b)) / 2
 
 if maiorAB > c:
-	maior = maiorAB
+    maior = maiorAB
 else:
-	maior = c
+    maior = c
 
 maior = int(maior)
 print("{} eh o maior".format(maior))
@@ -327,9 +327,9 @@ delta = b ** 2 - 4 * a * c
 if delta < 0 or a == 0:
   print("Impossivel calcular")
 else:
-  x1 = (-b + delta ** 0.5 ) / (2 * a)
-  x2 = (-b - delta ** 0.5 ) / (2 * a)
-  print("R1 = {:.5f}\nR2 = {:.5f}".format(x1, x2))
+    x1 = (-b + delta ** 0.5 ) / (2 * a)
+    x2 = (-b - delta ** 0.5 ) / (2 * a)
+    print("R1 = {:.5f}\nR2 = {:.5f}".format(x1, x2))
 ~~~
 
 ### 1037 - Intervalo
@@ -338,15 +338,15 @@ else:
 n = float(input())
 
 if n >= 0 and n <= 25:
-  print("Intervalo [0,25]")
+    print("Intervalo [0,25]")
 elif n > 25 and n <= 50:
-  print("Intervalo (25,50]")
+    print("Intervalo (25,50]")
 elif n > 50 and n <= 75:
-  print("Intervalo (50,75]")
+    print("Intervalo (50,75]")
 elif n > 75 and n <= 100:
-  print("Intervalo (75,100]")
+    print("Intervalo (75,100]")
 else:
-  print("Fora de intervalo")
+    print("Fora de intervalo")
 ~~~
 
 ### 1038 - Lanche
@@ -356,15 +356,15 @@ linha = input().split(" ")
 codigo, quantidade = linha[0], int(linha[1])
 
 if codigo == '1':
-  preco = 4.00
+    preco = 4.00
 elif codigo == '2':
-  preco = 4.50
+    preco = 4.50
 elif codigo == '3':
-  preco = 5.0
+    preco = 5.0
 elif codigo == '4':
-  preco = 2.0
+    preco = 2.0
 elif codigo == '5':
-  preco = 1.5  
+    preco = 1.5  
 
 total = preco * quantidade
 print("Total: R$ {:.2f}".format(total))
@@ -380,20 +380,20 @@ media = (2 * n1 + 3 * n2 + 4 * n3 + 1 * n4) / 10
 print("Media: {:.1f}".format(media))
 
 if media >= 7.0:
-  print("Aluno aprovado.")
+    print("Aluno aprovado.")
 elif media < 5.0:
-  print("Aluno reprovado.")
+    print("Aluno reprovado.")
 elif media >= 5.0 and media < 7.0:
-  print("Aluno em exame.")
-  nexame = float(input())
+    print("Aluno em exame.")
+    nexame = float(input())
 
-  print("Nota do exame: {:.1f}".format(nexame))
-  media = (media + nexame) / 2
+    print("Nota do exame: {:.1f}".format(nexame))
+    media = (media + nexame) / 2
   if media >= 5.0:
     print("Aluno aprovado.")
   elif media < 4.0:
     print("Aluno reprovado.")
-  print("Media final: {:.1f}".format(media))
+    print("Media final: {:.1f}".format(media))
 ~~~
 
 ### 1041 - Coordenadas de um Ponto
@@ -403,19 +403,19 @@ linha = input().split(" ")
 x, y = float(linha[0]), float(linha[1])
 
 if x == 0.0 and y ==  0.0:
-	print("Origem")
+    print("Origem")
 elif x != 0.0 and y == 0.0:
-	print("Eixo X")
+    print("Eixo X")
 elif y != 0.0 and x == 0.0:
-	print("Eixo Y")
+    print("Eixo Y")
 elif x > 0.0 and y > 0.0:
-	print("Q1")
+    print("Q1")
 elif x < 0.0 and y > 0.0:
-	print("Q2")
+    print("Q2")
 elif x < 0.0 and y < 0.0:
-	print("Q3")
+    print("Q3")
 elif x > 0.0 and y < 0.0:
-	print("Q4")
+    print("Q4")
 ~~~
 
 ### 1042 - Sort Simples
@@ -428,12 +428,12 @@ lista_ordenada = lista.copy()
 lista_ordenada.sort()
 
 for i in lista_ordenada:
-	print(i)
+    print(i)
 
 print()
-	
+    
 for i in lista:
-	print(i)
+    print(i)
 ~~~
 
 ### 1043 - Triângulo
@@ -443,9 +443,9 @@ linha = input().split(" ")
 a, b, c = float(linha[0]), float(linha[1]), float(linha[2])
 
 if (a + b) == c or (a + c) == b or (c + b) == a:
-	print("Area = {:.1f}".format(((a + b) * c) / 2))
+    print("Area = {:.1f}".format(((a + b) * c) / 2))
 else:
-	print("Perimetro = {:.1f}".format(a + b + c))
+    print("Perimetro = {:.1f}".format(a + b + c))
 ~~~
 
 ### 1044 - Múltiplos
@@ -468,22 +468,22 @@ a, b, c = lista
 str_out2 = ''
 
 if a >= b + c: 
-	str_out = "NAO FORMA TRIANGULO"
+    str_out = "NAO FORMA TRIANGULO"
 elif (a ** 2) == (b ** 2 + c **2):
-	str_out = "TRIANGULO RETANGULO"
+    str_out = "TRIANGULO RETANGULO"
 elif (a ** 2) > (b ** 2 + c **2):
-	str_out = "TRIANGULO OBTUSANGULO"
+    str_out = "TRIANGULO OBTUSANGULO"
 elif (a ** 2) < (b ** 2 + c **2):
-	str_out = "TRIANGULO ACUTANGULO"
+    str_out = "TRIANGULO ACUTANGULO"
 
 if a == b and b == c:
-	str_out2 = "TRIANGULO EQUILATERO"
+    str_out2 = "TRIANGULO EQUILATERO"
 elif (a == b and a != c) or (a == c and a != b) or (b == c and b != a): 
-	str_out2 = "TRIANGULO ISOSCELES"
+    str_out2 = "TRIANGULO ISOSCELES"
 
 print(str_out)
 if str_out2 != '':
-	print(str_out2)
+    print(str_out2)
 ~~~
 
 ### 1046 - Tempo de Jogo
@@ -510,38 +510,36 @@ hI, mI, hF, mF = int(linha[0]), int(linha[1]), int(linha[2]), int(linha[3])
 hT = hF - hI
 
 if hT < 0:
-  hT += 24
+    hT += 24
 
 mT = mF - mI
 
 if mT < 0: 
-  mT += 60
-  hT -= 1
-  if hT < 0:
-    hT += 24
+    mT += 60
+    hT -= 1
+    if hT < 0:
+        hT += 24
 
 if mT == 0 and hT == 0:
-  print("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)")
+    print("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)")
 else:
-  print("O JOGO DUROU {} HORA(S) E {} MINUTO(S)".format(hT, mT))
-
-
+    print("O JOGO DUROU {} HORA(S) E {} MINUTO(S)".format(hT, mT))
 ~~~
 
 ### 1048 - Aumento de Salário
 
 ~~~python
 def set_salary_increase(salary):
-	if salary >= 0 and salary <= 400.0:
-		return 0.15
-	elif salary > 400.0 and salary <= 800.0:
-		return 0.12
-	elif salary > 800.0 and salary <= 1200.0:
-		return 0.10
-	elif salary > 1200.0 and salary <= 2000.0:
-		return 0.07
-	elif salary > 2000.0:
-		return 0.04
+    if salary >= 0 and salary <= 400.0:
+        return 0.15
+    elif salary > 400.0 and salary <= 800.0:
+        return 0.12
+    elif salary > 800.0 and salary <= 1200.0:
+        return 0.10
+    elif salary > 1200.0 and salary <= 2000.0:
+        return 0.07
+    elif salary > 2000.0:
+        return 0.04
 
 salary = float(input())
 increase_perc = set_salary_increase(salary)
@@ -556,27 +554,27 @@ print("Em percentual: {:.0f} %".format(increase_perc * 100))
 
 ~~~python
 def define_type(t1, t2, t3):
-  if t1 == "vertebrado":
+    if t1 == "vertebrado":
     if t2 == "ave":
-      if t3 == "carnivoro":
+        if t3 == "carnivoro":
         return "aguia"
-      elif t3 == "onivoro":
+        elif t3 == "onivoro":
         return "pomba"
     elif t2 == "mamifero":
-      if t3 == "onivoro":
+        if t3 == "onivoro":
         return "homem"
-      elif t3 == "herbivoro":
+        elif t3 == "herbivoro":
         return "vaca"
-  elif t1 == "invertebrado":
+    elif t1 == "invertebrado":
     if t2 == "inseto":
-      if t3 == "hematofago":
+        if t3 == "hematofago":
         return "pulga"
-      elif t3 == "herbivoro":
+        elif t3 == "herbivoro":
         return "lagarta"
     elif t2 == "anelideo":
-      if t3 == "hematofago":
+        if t3 == "hematofago":
         return "sanguessuga"
-      elif t3 == "onivoro":
+        elif t3 == "onivoro":
         return "minhoca"
 
 type1 = input()
@@ -586,24 +584,24 @@ type3 = input()
 print(define_type(type1, type2, type3))
 ~~~
 
-### 1050 - 	DDD
+### 1050 -     DDD
 
 ~~~python
 ddd = {
-  61: 'Brasilia',
-  71: 'Salvador',
-  11: 'Sao Paulo',
-  21: 'Rio de Janeiro',
-  32: 'Juiz de Fora',
-  19: 'Campinas',
-  27: 'Vitoria',
-  31: 'Belo Horizonte'
+    61: 'Brasilia',
+    71: 'Salvador',
+    11: 'Sao Paulo',
+    21: 'Rio de Janeiro',
+    32: 'Juiz de Fora',
+    19: 'Campinas',
+    27: 'Vitoria',
+    31: 'Belo Horizonte'
 }
 
 ddd_input = int(input())
 
 try:
-  print(ddd[ddd_input])
+    print(ddd[ddd_input])
 except KeyError:
-  print('DDD nao cadastrado')
+    print('DDD nao cadastrado')
 ~~~
