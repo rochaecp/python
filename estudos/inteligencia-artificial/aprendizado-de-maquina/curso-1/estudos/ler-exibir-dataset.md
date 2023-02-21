@@ -1,4 +1,4 @@
-# Leitura e exibição de um dataset
+# Ler e exibir um dataset
 
 ## Ler e exibir um dataset a partir de um arquivo de texto
 
