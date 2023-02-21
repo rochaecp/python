@@ -270,15 +270,45 @@ menor = min(minha_lista) # 1
 
 ## List Comprehension
 
-útil para criar uma lista baseada em outra já existente.
+Útil para criar uma lista baseada em outra já existente.  
+
+#### Copiar uma lista
 
 ~~~python
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-minha_lista = [x for x in fruits] # copy the list fruits
-minha_lista = [x for x in fruits if "a" in x] # fruits with the letter "a" in the name
-minha_lista = [x for x in fruits if x[0] == "a"]
-minha_lista = [x.upper() for x in fruits] 
-minha_lista = [x * 2 for x in range(10)]
-minha_lista = [x for x in range(10) if x % 2 == 0]
-minha_lista = [x if x != "banana" else "orange" for x in fruits] # returns orange instead of banana
+minha_lista = ["banana", "morango", "laranja"]
+minha_lista_2 = [x for x in minha_lista] # ['banana', 'morango', 'laranja']
+~~~
+
+#### Tornar cada elemento da lista maiúsculo
+
+~~~python
+minha_lista = ["banana", "morango", "laranja"]
+minha_lista_2 = [x.upper() for x in minha_lista] # ['BANANA', 'MORANGO', 'LARANJA']
+~~~
+
+#### Criar uma nova lista a partir de um range
+
+~~~python
+minha_lista = [x for x in range(1, 6)] # [1, 2, 3, 4, 5]
+~~~
+
+#### Criar uma nova lista a partir de uma antiga eliminando algum item
+
+~~~python
+minha_lista = ["banana", "uva", "laranja", "pera", "uva"]
+minha_lista_2 = [x for x in minha_lista if x != "uva"] # ['banana', 'laranja', 'pera']
+~~~
+
+#### Criar uma nova lista a partir de uma antiga eliminando itens que contenham a letra 'n'
+
+~~~python
+minha_lista = ["banana", "uva", "laranja", "pera", "uva"]
+minha_lista_2 = [x for x in minha_lista if "n" not in x] # ['uva', 'pera', 'uva']
+~~~
+
+#### Criar uma nova lista a partir de uma antiga modificando algum item
+
+~~~python
+minha_lista = ["banana", "uva", "laranja", "pera"]
+minha_lista_2 = [x if x != "banana" else "Banana" for x in minha_lista ] # ['Banana', 'uva', 'laranja', 'pera']
 ~~~
