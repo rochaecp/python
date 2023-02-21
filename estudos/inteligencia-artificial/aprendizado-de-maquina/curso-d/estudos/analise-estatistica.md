@@ -1,4 +1,4 @@
-# Pandas - Análise Estatística de um conjunto de dados
+# Aprendizado de Máquina - Análise Estatística de um conjunto de dados
 
 ## Ler e exibir quantidade de linhas e colunas de um dataset
 

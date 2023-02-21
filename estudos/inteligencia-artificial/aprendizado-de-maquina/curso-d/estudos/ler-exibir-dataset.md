@@ -1,4 +1,4 @@
-# Python - Pandas
+# Aprendizado de Máquina - Curso
 
 ## Ler e exibir um dataset a partir de um arquivo de texto
 
