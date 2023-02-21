@@ -2,4 +2,4 @@
 
 ## Aprendizado de Máquina
 
-1. [Curso D.]()
+1. [Curso D.](aprendizado-de-maquina/curso-d/README.md)
