@@ -1,4 +1,4 @@
-# Aprendizado de Máquina - Análise e visualização de um Conjunto de Dados
+# Análise e visualização de um Conjunto de Dados
 
 ## Exibir quantas vezes uma variável aparece no conjunto de dados
 
