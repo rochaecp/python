@@ -4,133 +4,133 @@ Uma tupla é uma coleção ordenada e não modificável.
 Permite elementos duplicados.  
 Para modificar uma tupla podemos transformá-la em uma lista.  
 
-## Criando uma tupla
+## Criar uma tupla
 
 ~~~python
-my_tuple = ("apple", "banana", "cherry")
+minha_tupla = ("pera", "uva", "melancia")
 ~~~
 
 #### Construtor (observe os parênteses repetidos)  
 
 ~~~python
-my_tuple = tuple(("apple", "banana", "cherry")) 
-myTuple = tuple((1, 2, 3, 4))
-my_tuple = tuple(my_list)
+minha_tupla = tuple(("pera", "uva", "melancia")) 
+minha_tupla = tuple((1, 2, 3, 4))
+minha_tupla = tuple(minha_lista)
 ~~~
 
-## Acessando elementos de uma tupla
+## Acessar elementos de uma tupla
 
-Acessando um elemento da tupla:
+Acessar um elemento de uma tupla:
 
 ~~~python
-item = my_tuple[0] # first
-item = my_tuple[-1] # last 
+minha_tupla = ("pera", "uva", "melancia")
+item = minha_tupla[0]   # pera
+item = minha_tupla[-1]  # melancia 
 ~~~
 
-Acessando um range da tupla:
+#### Acessar uma fatia de uma tupla
 
 ~~~python
-my_tuple = my_tuple[0:3]
+minha_tupla = ("pera", "uva", "melancia")
+minha_tupla = minha_tupla[0:2] # ('pera', 'uva')
 ~~~
 
-Acessando todos elementos da tupla:
+#### Acessar todos elementos de uma tupla
 
 ~~~python
-my_tuple = ("apple", "banana", "cherry")
-for x in my_tuple:
+minha_tupla = ("pera", "uva", "melancia")
+for x in minha_tupla:
     print(x)
 ~~~
 
 ~~~python
-my_tuple = ("apple", "banana", "cherry")
-for i in range(len(my_tuple)):
-    print(my_tuple[i])
+minha_tupla = ("pera", "uva", "melancia")
+for i in range(len(minha_tupla)):
+    print(minha_tupla[i])
 ~~~
 
 ~~~python
-my_tuple = ("apple", "banana", "cherry")
+minha_tupla = ("pera", "uva", "melancia")
 i = 0
-while i < len(my_tuple):
-    print(my_tuple[i])
+while i < len(minha_tupla):
+    print(minha_tupla[i])
     i = i + 1 
 ~~~
 
-## Verificando se um elemento existe na tupla
+## Verificar se um elemento existe na tupla
 
 ~~~python
-my_bool = "apple" in my_tuple
+minha_tupla = ("pera", "uva", "melancia")
+my_bool = "pera" in minha_tupla
 ~~~
 
-## Procurando um elemento na tupla:
+## Procurar um elemento na tupla:
 
 ~~~python
-my_index = my_tuple.index("myValue") # finds the first occurrence of the specified value
+minha_tupla = ("pera", "uva", "melancia")
+my_index = minha_tupla.index("melancia") 
 ~~~
 
-## Modificando valores de uma tupla
+## Modificar valores de uma tupla
 
 ~~~python
-my_tuple = ("apple", "banana", "cherry")
-my_list = list(my_tuple) # convert into lista
-my_list[1] = "kiwi"
-my_tuple = tuple(my_list)
+minha_tupla = ("pera", "uva", "melancia")
+minha_lista = list(minha_tupla)
+minha_lista[1] = "morango"
+minha_tupla = tuple(minha_lista)
 ~~~
 
-## Juntando duas tuplas
+## Juntar duas tuplas
 
 ~~~python
-my_tuple = ("apple", "banana", "cherry")
-my_tuple2 = ("orange",)
-my_tuple += my_tuple2
+minha_tupla = ("pera", "uva", "melancia")
+minha_tupla_2 = ("laranja",)
+minha_tupla += minha_tupla_2
 ~~~
 
 ~~~python
-my_tuple3 = my_tuple1 + my_tuple2
+minha_tupla3 = minha_tupla1 + minha_tupla_2
 ~~~
 
 ## Unpacking
 
 ~~~python
-fruits = ("apple", "banana", "cherry")
-(green, yellow, red) = fruits # "unpacking" == extract the values back into variables
+fruits = ("pera", "uva", "melancia")
+(amarela, roxa, verde) = fruits # "unpacking"
 ~~~
 
 ~~~python
-fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
-(green, yellow, *red) = fruits # red == list
+fruits = ("pera", "melancia", "morango", "cereja")
+(amarela, verde, *red) = fruits # red == list
 ~~~
 
-## Multiplicando valores de uma tupla
+## Multiplicar valores de uma tupla
 
 ~~~python
-fruits = ("apple", "banana", "cherry")
-mytuple = fruits * 2
+fruits = ("pera", "uva", "melancia")
+minha_tupla = fruits * 2
 ~~~
 
 ## Obtendo o tamanho de uma tupla
 
 ~~~python
-my_len = len(my_tuple)
+tamanho = len(minha_tupla)
 ~~~
 
-## Contando quantas vezes um elemento aparece na tupla:
+## Contar quantas vezes um elemento aparece na tupla:
 
 ~~~python
-my_count = my_tuple.count("myValue") 
+total = minha_tupla.count("melancia") 
 ~~~
 
 ## Obtendo o maior elemento de uma tupla
 
 ~~~python
-my_max = max(my_tuple)
+maior = max(minha_tupla)
 ~~~
 
 ## Obtendo o menor elemento de uma tupla
 
 ~~~python
-my_min = min(my_tuple)
+menor = min(minha_tupla)
 ~~~
-
-
-
-
