@@ -43,3 +43,9 @@ data['fruit_subtype'] = data['fruit_subtype'].fillna(data['fruit_subtype'].value
 
 print(data)
 ~~~
+
+## Eliminação de Colunas
+
+~~~python
+
+~~~
