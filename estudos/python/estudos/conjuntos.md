@@ -6,25 +6,26 @@ Os itens de um conjunto podem ser de qualquer tipo.
 ## Criar um conjunto
 
 ~~~python
-my_set = {"morango", "banana", "uva"}
+meu_conjunto = {"morango", "banana", "uva"}
 ~~~
 
 #### Com o construtor:
 
 ~~~python
-my_set = set(("morango", "banana", "uva")) # note the double round-brackets
+meu_conjunto = set(("morango", "banana", "uva")) # note the double round-brackets
 ~~~
 
 ## Converter uma lista em um conjunto
 
 ~~~python
-my_set = set(my_list)
+minha_lista = ["morango", "banana", "uva"]
+meu_conjunto = set(minha_lista)
 ~~~
 
 ## Obter o tamanho de um conjunto
 
 ~~~python
-my_len = len(my_set)
+tamanho = len(meu_conjunto)
 ~~~
 
 ## Acessar itens de um conjunto
@@ -34,14 +35,15 @@ Não é possível utilizar um index ou uma chave.
 #### Acessar todos elementos do conjunto:
 
 ~~~python
-for x in my_set:
-    print(x) 
+meu_conjunto = {"morango", "banana", "uva"}
+for item in meu_conjunto:
+    print(item) 
 ~~~
 
 ## Verificar se um elemento está em um conjunto
 
 ~~~python
-my_bool = "banana" in my_set
+my_bool = "banana" in meu_conjunto
 ~~~
 
 ## Modificar itens de um conjunto
@@ -55,19 +57,19 @@ Os itens repetidos são removidos.
 #### Adicionar um item:
 
 ~~~python
-my_set.add("laranja")
+meu_conjunto.add("laranja")
 ~~~
 
 #### Adicionar todos os itens de outro conjunto
 
 ~~~python
-my_set.update(my_set2)
+meu_conjunto.update(meu_conjunto_2)
 ~~~
 
 #### Adicionar todos itens de uma lista: 
 
 ~~~python
-my_set.update(my_list)
+meu_conjunto.update(minha_lista)
 ~~~
 
 ## Remover itens
@@ -75,31 +77,31 @@ my_set.update(my_list)
 Lança um erro se o elemento não existir:
 
 ~~~python
-my_set.remove("banana") 
+meu_conjunto.remove("banana") 
 ~~~
 
 Não lança um erro se elemento não existir:
 
 ~~~python
-my_set.discard("banana") 
+meu_conjunto.discard("banana") 
 ~~~
 
 Remove um elemento (lembrar: conjuntos não possuem ordem):
 
 ~~~python
-last_item = my_set.pop()
+last_item = meu_conjunto.pop()
 ~~~
 
 Limpar o conjunto:
 
 ~~~python
-my_set.clear()
+meu_conjunto.clear()
 ~~~
 
 Deletar totalmente o conjunto:
 
 ~~~python
-del my_set # delete the set completely
+del meu_conjunto # delete the set completely
 ~~~
 
 ## Remover itens duplicados de uma lista
@@ -114,35 +116,43 @@ meu_conjutno = set(minha_lista) # {'banana', 'morango', 'uva'}
 #### União
 
 ~~~python
-my_set3 = my_set1.union(my_set2)
+meu_conjunto_1 = {"morango", "banana", "uva"}
+meu_conjunto_2 = {"laranja", "goiaba", "manga"}
+meu_conjunto_3 = meu_conjunto_1.union(meu_conjunto_2) # {'morango', 'goiaba', 'laranja', 'uva', 'banana', 'manga'}
+~~~
+
+~~~python
+meu_conjunto_1 = {"morango", "banana", "uva"}
+meu_conjunto_2 = {"laranja", "goiaba", "manga"}
+meu_conjunto_1.update(meu_conjunto_2) # {'manga', 'uva', 'morango', 'banana', 'laranja', 'goiaba'}
 ~~~
 
 #### Intersecção (mantém apenas os duplicados)
 
 ~~~python
-my_set3 = my_set1.intersection(my_set2)
+meu_conjunto_3 = meu_conjunto_1.intersection(meu_conjunto_2)
 ~~~
 
 #### Diferença simétrica (mantém todos menos os existentes em ambos)
 
 ~~~python
-my_set3 = my_set1.symmetric_difference(my_set2) 
+meu_conjunto_3 = meu_conjunto_1.symmetric_difference(meu_conjunto_2) 
 ~~~
 
 #### Diferença
 
 ~~~python
-my_set = my_set.difference(my_set2)
+meu_conjunto = meu_conjunto.difference(meu_conjunto_2)
 ~~~
 
 #### Subconjunto
 
 ~~~python
-answ = my_set.issubset(my_set2)
+answ = meu_conjunto.issubset(meu_conjunto_2)
 ~~~
 
 #### Superconjunto
 
 ~~~python
-answ = my_set.issuperset(my_set2)
+answ = meu_conjunto.issuperset(meu_conjunto_2)
 ~~~
