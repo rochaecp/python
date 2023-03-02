@@ -355,7 +355,7 @@ else:
 linha = input().split(" ")
 codigo, quantidade = linha[0], int(linha[1])
 
-if codigo == '1':
+if codigo == '1': 
     preco = 4.00
 elif codigo == '2':
     preco = 4.50
@@ -367,6 +367,25 @@ elif codigo == '5':
     preco = 1.5  
 
 total = preco * quantidade
+print("Total: R$ {:.2f}".format(total))
+~~~
+
+### 1038 - Lanche (solução com dicionários)
+
+~~~python
+linha = input().split(" ")
+codigo, quantidade = linha[0], int(linha[1])
+total = 0
+
+produtos = {
+    '1' : 4.00,
+    '2' : 4.50,
+    '3' : 5.00,
+    '4' : 2.00,
+    '5' : 1.50
+}
+
+total = produtos[codigo] * quantidade
 print("Total: R$ {:.2f}".format(total))
 ~~~
 
