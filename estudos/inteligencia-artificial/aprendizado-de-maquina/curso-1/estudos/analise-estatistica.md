@@ -7,6 +7,7 @@ import pandas as pd
 
 frutas = pd.read_table('datasets/fruit_data_with_colors.txt',sep='\t')
 print(frutas.shape) # (linhas, colunas)
+print(frutas.shape[0]) # (linhas)
 ~~~
 
 ## Realizar análises estatísticas com describe()

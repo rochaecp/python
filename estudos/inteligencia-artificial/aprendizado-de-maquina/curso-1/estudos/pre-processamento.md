@@ -4,7 +4,8 @@
 
 O dataset trabalhado aqui é o fruit_data_with_colors_miss.txt.  
 Em algumas colunas há pontos de interrogação e carateres de ponto no lugar de dados faltantes.  
-parâmetro ```na_values```: lista de valores faltantes (representados no exemplo pelo ponto e pela interrogação).  
+parâmetro ```na_values```: lista de valores faltantes (representados no exemplo pelo ponto e pela interrogação). 
+É **ineficiente** quando estão faltando muitos dados no conjunto.   
 
 #### Substituir valores faltantes por NaN
 
@@ -46,6 +47,18 @@ print(data)
 
 ## Eliminação de Colunas
 
-~~~python
+Pode ser usada quando faltam muitos dados em uma coluna.  
+Exemplo de abordagem: se a % de dados faltantes for superior a 25% então eliminar a coluna.  
 
+~~~python
+import pandas as pd
+
+data = pd.read_table('datasets/fruit_data_with_colors_miss.txt',na_values=['.', '?']) 
+
+print(data.shape[0])                                # total de dados
+print(data.isnull().sum())                          # colunas x total de dados faltantes na coluna
+print(data.isnull().sum() / data.shape[0] * 100)    # % de dados faltantes
+
+# eliminando a coluna
+data = data[['fruit_label', 'fruit_name', 'fruit_subtype', 'width', 'height', 'color_score']] # colunas que desejamos manter
 ~~~
