@@ -130,29 +130,49 @@ meu_conjunto_1.update(meu_conjunto_2) # {'manga', 'uva', 'morango', 'banana', 'l
 #### Intersecção (mantém apenas os duplicados)
 
 ~~~python
-meu_conjunto_3 = meu_conjunto_1.intersection(meu_conjunto_2)
+meu_conjunto_1 = {"morango", "banana", "uva"}
+meu_conjunto_2 = {"banana", "goiaba", "morango"}
+meu_conjunto_3 = meu_conjunto_1.intersection(meu_conjunto_2) # {'morango', 'banana'}
+~~~
+
+~~~python
+meu_conjunto_1 = {"morango", "banana", "uva"}
+meu_conjunto_2 = {"banana", "goiaba", "morango"}
+meu_conjunto_1.intersection_update(meu_conjunto_2) # {'banana', 'morango'}
 ~~~
 
 #### Diferença simétrica (mantém todos menos os existentes em ambos)
 
 ~~~python
-meu_conjunto_3 = meu_conjunto_1.symmetric_difference(meu_conjunto_2) 
+meu_conjunto_1 = {"morango", "banana", "uva"}
+meu_conjunto_2 = {"banana", "goiaba", "morango"}
+meu_conjunto_3 = meu_conjunto_1.symmetric_difference(meu_conjunto_2) # {'uva', 'goiaba'}
 ~~~
 
 #### Diferença
 
 ~~~python
-meu_conjunto = meu_conjunto.difference(meu_conjunto_2)
+meu_conjunto_1 = {"morango", "banana", "uva"}
+meu_conjunto_2 = {"banana", "goiaba", "morango"}
+meu_conjunto_3 = meu_conjunto_1.difference(meu_conjunto_2) # {'uva'}
 ~~~
 
 #### Subconjunto
 
+Verifica se meu_conjunto_1 é subconjunto do meu_conjunto_2.  
+
 ~~~python
-answ = meu_conjunto.issubset(meu_conjunto_2)
+meu_conjunto_1 = {"morango", "banana"}
+meu_conjunto_2 = {"morango", "banana", "goiaba", "morango"}
+ehSubconjunto = meu_conjunto_1.issubset(meu_conjunto_2) # True
 ~~~
 
 #### Superconjunto
 
+Verifica se meu_conjunto_1 é superconjunto do meu_conjunto_2.  
+
 ~~~python
-answ = meu_conjunto.issuperset(meu_conjunto_2)
+meu_conjunto_1 = {"manga", "banana", "goiaba", "uva"}
+meu_conjunto_2 = {"manga", "banana"}
+ehSuperconjunto = meu_conjunto_1.issuperset(meu_conjunto_2) # True
 ~~~
