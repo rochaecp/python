@@ -4,179 +4,304 @@ Um dicionário é uma coleção ordenada (a partir do Python 3.7), modificável 
 São utilizados para gravar dados como pares chave (key) e valor (value).  
 Não é possível copiar um dicionário fazendo ```dict2 = dict1```. Isso faria dict2 guardar uma referência para dict1.  
 
-## Criando um dicionário
+## Criar um dicionário
 
 ~~~python
-my_dict = {
-    "model": "Mustang",
-    "electric": False,
-    "year": 1964,
-    "colors": ["red", "white", "blue"]
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
 }
 ~~~
 
-## Obtendo o tamanho do dicionário
+## Obter o tamanho do dicionário
 
 ~~~python
-my_len = len(my_dict)
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+s = tamanho = len(meu_dicionario) # 3
 ~~~
 
-## Acessando os valores do dicionário
+## Acessar os valores do dicionário
 
-Acessando um valor:
+#### Um valor
 
 ~~~python
-my_item = my_dic["model"]
-my_item = my_dic.get("model")
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+meu_item = meu_dicionario["nome"]
+meu_item = meu_dicionario.get("nome") 
+~~~
+
+#### Todos os valores
+
+~~~python
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+for x in meu_dicionario:
+    print(meu_dicionario[x]) 
 ~~~
 
 ~~~python
-my_item = my_dic["model"]
-my_item = my_dic.get("model")
-~~~
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
 
-Acessando todos os valores:
-
-~~~python
-values_list = my_dict.values() 
-~~~
-
-~~~python
-for x in my_dict:
-    print(my_dict[x]) 
-~~~
-
-~~~python
-for x in my_dict.values():
+for x in meu_dicionario.values():
     print(x)
 ~~~
 
-## Acessando as chaves do dicionário
+~~~python
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+lista_valores = meu_dicionario.values() 
+~~~
+
+## Acessar as chaves do dicionário
 
 ~~~python
-keys_list = my_dict.keys() 
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+for x in meu_dicionario:
+    print(x)
 ~~~
 
 ~~~python
-for x in my_dict:
-    print(x) # keys
-~~~
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
 
-~~~python
-for x in my_dict.keys():
+for x in meu_dicionario.keys():
     print(x) 
 ~~~
 
-## Acessando os itens do dicionário
+~~~python
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+lista_chaves = meu_dicionario.keys() 
+~~~
+
+## Acessar os itens do dicionário
 
 ~~~python
-items_list_of_tuples = my_dict.items()
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+lista_de_tuplas_itens = meu_dicionario.items()
 ~~~
 
 ~~~python
-for x, y in my_dict.items():
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+for x, y in meu_dicionario.items():
     print(x, y) # keys, values
 ~~~
 
-## Verificando se um item existe
+## Verificar se um item existe
 
 ~~~python
-if "model" in my_dict:
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+if "nome" in meu_dicionario:
     print("Yes") 
 ~~~
 
-## Modificando um item do dicionário
+## Modificar um item do dicionário
 
 ~~~python
-my_dict['age'] = 30
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+meu_dicionario['idade'] = 32
 ~~~
 
 ~~~python
-my_dict.update({"age": 31}) 
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+meu_dicionario.update({"idade": 32}) 
 ~~~
 
-## Adicionando um item ao dicionário
+## Adicionar um item ao dicionário
 
 ~~~python
-car["brand"] = "Ford"
-~~~
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
 
-~~~python
-my_dict.update({"brand": "Ford"})
-~~~
-
-## Removendo um item do dicionário
-
-~~~python
-my_dict.pop("age")
-
-~~~
-
-~~~python
-my_dict..popitem() # 3.7 - random item
+meu_dicionario["signo"] = "Capricórnio"
 ~~~
 
 ~~~python
-del my_dict['age']
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+meu_dicionario.update({"signo": "Capricórnio"})
+~~~
+
+## Remover um item do dicionário
+
+~~~python
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+meu_dicionario.pop("linguagens")
 ~~~
 
 ~~~python
-del my_dict
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+meu_dicionario..popitem() # 3.7
 ~~~
 
 ~~~python
-my_dict.clear()
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+del meu_dicionario['idade']
 ~~~
 
-## Copiando um dicionário
-
 ~~~python
-my_dict_cpy = my_dict.copy()
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+del meu_dicionario
 ~~~
 
 ~~~python
-my_dict_cpy = dict(my_dict)
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+meu_dicionario.clear()
+~~~
+
+## Copiar um dicionário
+
+~~~python
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+meu_dicionario_cpy = meu_dicionario.copy()
+~~~
+
+~~~python
+meu_dicionario = {
+    "nome": "Mauricio",
+    "idade": 31,
+    "linguagens": ["JS", "C#", "Python"]
+}
+
+meu_dicionario_cpy = dict(meu_dicionario)
 ~~~
 
 ## Dicionários aninhados
 
 ~~~python
-myfamily = {
-    "child1" : {
-        "name" : "Emil",
-        "year" : 2004
+meu_dicionario = {
+    "filho1" : {
+        "nome" : "Filhoquinho",
+        "ano" : 2020
     },
-    "child2" : {
-        "name" : "Tobias",
-        "year" : 2007
+    "filho2" : {
+        "nome" : "Bill Gates",
+        "ano" : 2007
     },
-    "child3" : {
-        "name" : "Linus",
-        "year" : 2011
+    "filho3" : {
+        "nome" : "Linus",
+        "ano" : 2011
     }
 }
 
-print(myfamily["child1"]) # {'name': 'Emil', 'year': 2004}
-print(myfamily["child1"]["name"]) # Emil
+print(meu_dicionario["filho1"]) 
+print(meu_dicionario["filho1"]["nome"]) 
 ~~~
 
 ~~~python
-child1 = {
-    "name" : "Emil",
-    "year" : 2004
+filho1 = {
+    "nome" : "Filhoquinho",
+    "ano" : 2020
 }
-child2 = {
-    "name" : "Tobias",
-    "year" : 2007
+filho2 = {
+    "nome" : "Bill Gates",
+    "ano" : 2007
 }
-child3 = {
-    "name" : "Linus",
-    "year" : 2011
+filho3 = {
+    "nome" : "Linus",
+    "ano" : 2011
 }
 
-myfamily = {
-    "child1" : child1,
-    "child2" : child2,
-    "child3" : child3
+meu_dicionario = {
+    "filho1" : filho1,
+    "filho2" : filho2,
+    "filho3" : filho3
 }
 ~~~
