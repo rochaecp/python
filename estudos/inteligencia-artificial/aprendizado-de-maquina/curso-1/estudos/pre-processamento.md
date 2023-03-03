@@ -62,3 +62,9 @@ print(data.isnull().sum() / data.shape[0] * 100)    # % de dados faltantes
 # eliminando a coluna
 data = data[['fruit_label', 'fruit_name', 'fruit_subtype', 'width', 'height', 'color_score']] # colunas que desejamos manter
 ~~~
+
+## Transformar a escala dos dados
+
+~~~python
+
+~~~
