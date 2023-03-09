@@ -3,7 +3,7 @@
 Matplotlib é uma biblioteca de código aberto para a plotagem de gráficos em python.  
 Algumas partes do Matplotlib são escritas em C, Objective-C e Javascript.  
 
-Repositório do Matplotlib [aqui](https://github.com/matplotlib/matplotlib).
+[Repositório do Matplotlib](https://github.com/matplotlib/matplotlib).
 
 ## Instalação
 
