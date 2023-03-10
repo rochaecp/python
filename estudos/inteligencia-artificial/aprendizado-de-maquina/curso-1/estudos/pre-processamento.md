@@ -2,7 +2,7 @@
 
 ## Imputar (injetar dados) dados faltantes
 
-O dataset trabalhado aqui é o fruit_data_with_colors_miss.txt.  
+O dataset trabalhado aqui é o **fruit_data_with_colors_miss.txt**.  
 Em algumas colunas há pontos de interrogação e carateres de ponto no lugar de dados faltantes.  
 parâmetro ```na_values```: lista de valores faltantes (representados no exemplo pelo ponto e pela interrogação). 
 É **ineficiente** quando estão faltando muitos dados no conjunto.   
@@ -64,6 +64,13 @@ data = data[['fruit_label', 'fruit_name', 'fruit_subtype', 'width', 'height', 'c
 ~~~
 
 ## Transformar a escala dos dados
+
+Para cada iremos escalar os valores para o intervalo [0; 1]:   
+(valor_para_transformar - menor_valor_coluna) / (maior_valor_coluna - menor_valor_coluna)
+
+Utilizaremos o sklearn.  
+
+> Obs.: cuidado com colunas que possuem todos os valores iguais.  
 
 ~~~python
 

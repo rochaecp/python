@@ -1,4 +1,4 @@
-# Python - GUI - PyQt5
+# Python - Pyqt5
 
 ~~~python
 from PyQt5.QtWidgets import QApplication, QMainWindow

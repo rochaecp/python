@@ -1,4 +1,4 @@
-# Python - GUI - Tkinter
+# Python - Tkinter
 
 ~~~python
 from tkinter import *
