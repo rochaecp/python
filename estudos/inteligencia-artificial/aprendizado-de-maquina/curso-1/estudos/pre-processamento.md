@@ -65,7 +65,7 @@ data = data[['fruit_label', 'fruit_name', 'fruit_subtype', 'width', 'height', 'c
 
 ## Transformar a escala dos dados
 
-Para cada iremos escalar os valores para o intervalo [0; 1]:   
+Para cada coluna iremos escalar os valores para o intervalo [0; 1]:   
 (valor_para_transformar - menor_valor_coluna) / (maior_valor_coluna - menor_valor_coluna)
 
 Utilizaremos o sklearn.  
