@@ -48,7 +48,7 @@ plt.plot(coordenadas_x, coordenadas_y)
 plt.show()
 ~~~
 
-#### Plotar múltiplos pontos sem especificar os pontos x
+#### Plotar múltiplos pontos sem especificar as coordenadas x
 
 > Obs.: por padrão o eixo x receberá os valores: 0, 1, 2, 3, ...
 

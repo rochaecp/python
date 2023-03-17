@@ -13,7 +13,7 @@ pip install matplotlib
 
 ## Verificando a versão instalada
 
-Executar em um arquivo .py.  
+Executar o seguinte comando em em um arquivo .py.  
 
 ~~~python
 import matplotlib
