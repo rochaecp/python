@@ -66,12 +66,22 @@ data = data[['fruit_label', 'fruit_name', 'fruit_subtype', 'width', 'height', 'c
 ## Transformar a escala dos dados
 
 Para cada coluna iremos escalar os valores para o intervalo [0; 1]:   
-(valor_para_transformar - menor_valor_coluna) / (maior_valor_coluna - menor_valor_coluna)
-
+```valor_escalado = (valor_para_transformar - menor_valor_coluna) / (maior_valor_coluna - menor_valor_coluna)```  
+Descartar colunas que possuam todos os valores iguais.  
 Utilizaremos o sklearn.  
 
-> Obs.: cuidado com colunas que possuem todos os valores iguais.  
-
 ~~~python
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler # classe que transforma a escala dos dados
 
+data = pd.read_table('datasets/fruit_data_with_colors_miss.txt', na_values=['.', '?']) 
+data = data.fillna(data.mean())                         # imputação dos dados faltantes com a média
+data = data[['mass', 'width', 'height', 'color_score']] # seleciona apenas colunas com dados numéricos
+
+#print(data.describe()) # observar que dados estão em escalas diferentes
+
+mm = MinMaxScaler()
+mm.fit(data) # obtem maximo e minimo do dataset
+data_escalados = mm.transform(data) # obtem dados escalados
+print(data_escalados)
 ~~~
