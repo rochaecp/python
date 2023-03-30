@@ -4,7 +4,7 @@
 
 ## Inteligência Artificial
 
-1. [Inteligência Artificial](estudos/inteligencia-artificial/README.md)
+1. [Aprendizado de Máquinas](estudos/aprendizado-de-maquina/README.md)
 1. [Scikit Learn](estudos/scikit-learn/README.md)
 
 ## Análise de Dados
