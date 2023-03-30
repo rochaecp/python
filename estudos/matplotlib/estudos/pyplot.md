@@ -3,9 +3,7 @@
 É um submódulo.  
 Geralmente utilizamos o alias ```plt``` na importação do submódulo Pyplot.  
 
-## Função plot()
-
-#### Plotar uma reta de um ponto inicial até um ponto final
+## Plotar uma reta de um ponto inicial até um ponto final - Função plot()
 
 Desenha retas de ponto a ponto.  
 
@@ -20,7 +18,7 @@ plt.plot(coordenadas_x, coordenadas_y)
 plt.show()
 ~~~
 
-#### Plotar 2 pontos sem usar uma reta
+## Plotar 2 pontos sem usar uma reta - Função plot()
 
 ~~~python
 import matplotlib.pyplot as plt 
@@ -33,7 +31,7 @@ plt.plot(coordenadas_x, coordenadas_y, 'o')
 plt.show()
 ~~~
 
-#### Plotar multiplos pontos conectados por retas
+## Plotar multiplos pontos conectados por retas - Função plot()
 
 > Obs.: o número de pontos nos eixos x e y devem ser iguais!  
 
@@ -48,7 +46,7 @@ plt.plot(coordenadas_x, coordenadas_y)
 plt.show()
 ~~~
 
-#### Plotar múltiplos pontos sem especificar as coordenadas x
+## Plotar múltiplos pontos sem especificar as coordenadas x - Função plot()
 
 > Obs.: por padrão o eixo x receberá os valores: 0, 1, 2, 3, ...
 

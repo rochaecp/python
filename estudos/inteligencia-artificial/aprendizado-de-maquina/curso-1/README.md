@@ -1,4 +1,4 @@
-# Curso
+# Curso 1 - Machine Learning
 
 1. [Ler e exibir um dataset](estudos/ler-exibir-dataset.md)
 1. [Obter análises estatísticas de um dataset](estudos/analise-estatistica.md)
