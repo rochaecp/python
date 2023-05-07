@@ -58,7 +58,7 @@ print(frutas[i-5:i]) # exibe da linha 10 até a linha 14
 print(frutas[i:i+5]) # exibe da linha 15 até a linha 19
 ~~~
 
-## Ler e exibir algumas colunas de algumas linahs
+## Ler e exibir algumas colunas de algumas linhas
 
 ~~~python
 import pandas as pd

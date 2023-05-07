@@ -29,3 +29,9 @@ for x in range(0, n):
   linha = ''.join(lista)
   print(linha)
 ~~~
+
+### 1768 - Árvore de Natal
+
+~~~python
+
+~~~
