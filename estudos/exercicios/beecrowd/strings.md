@@ -33,5 +33,24 @@ for x in range(0, n):
 ### 1768 - Árvore de Natal
 
 ~~~python
+def printa_arvore(num_ast):
+    qtd_espacos = num_ast // 2
+    for qtd in range(1, numero_asteriscos + 1):
+        if qtd % 2 != 0:
+            print(" " * qtd_espacos + "*" * qtd)
+            qtd_espacos -= 1
+    qtd_espacos = num_ast // 2
+    print(" " * qtd_espacos + "*")
+    qtd_espacos -= 1
+    print(" " * qtd_espacos + "*" * 3)
 
+# ler entrada até encontrar um EOF
+while True:
+    try:
+        numero_asteriscos = int(input())
+        if (numero_asteriscos >= 2 and numero_asteriscos % 2 != 0):
+            printa_arvore(numero_asteriscos)
+            print()
+    except EOFError:
+        break
 ~~~
