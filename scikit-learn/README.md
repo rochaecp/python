@@ -1,3 +1,3 @@
 # Scikit Learn
 
-1. [Sobre o Scikit Learn](estudos/about.md)
+1. [Sobre o Scikit Learn](about.md)
