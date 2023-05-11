@@ -130,16 +130,22 @@ minha_string_sem_esp = minha_string.strip()
 # Juntar os elementos de uma lista, tupla ou dicionário em uma string
 
 ~~~python
+lista_str = ["5", "4", "3", "2", "1"]
+str_num = ''.join(lista_str) # 54321
+str_num_com_sep = ' '.join(lista_str) # 5 4 3 2 1
+~~~
+
+~~~python
 minha_lista = ["Mauricio", "Maria", "Jose"]
-minha_string = " ".join(minha_lista)
+minha_string = " ".join(minha_lista) # Mauricio Maria Jose
 ~~~
 
 ~~~python
 minha_tupla = ("Mauricio", "Maria", "Jose")
-minha_string = " ".join(minha_tupla)
+minha_string = " ".join(minha_tupla) # Mauricio Maria Jose
 ~~~
 
 ~~~python
 meu_dicionario = {"name": "Mauricio", "country": "Brazil"}
-my_join = ' '.join(meu_dicionario)
+my_join = ' '.join(meu_dicionario) # name country
 ~~~
