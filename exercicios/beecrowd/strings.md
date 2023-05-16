@@ -71,3 +71,16 @@ for i in range(0, qtd):
     total = retorna_total_as(entrada)
     print("k" + "a" * total)
 ~~~
+
+# 2694 - Problema com a Calculadora
+
+~~~python
+repeticoes = int(input())
+
+for _ in range(0, repeticoes):
+    linha = input()
+    x1 = int(''.join(linha[2:4]))
+    x2 = int(''.join(linha[5:8]))
+    x3 = int(''.join(linha[11:13]))
+    print(x1 + x2 + x3)
+~~~
