@@ -1,6 +1,6 @@
 # Python - Exercícios
 
-### 1024 - Criptografia
+# 1024 - Criptografia
 
 ~~~python
 n = int(input())
@@ -30,7 +30,7 @@ for x in range(0, n):
   print(linha)
 ~~~
 
-### 1768 - Árvore de Natal
+# 1768 - Árvore de Natal
 
 ~~~python
 def printa_arvore(num_ast):
@@ -53,4 +53,21 @@ while True:
             print()
     except EOFError:
         break
+~~~
+
+# 2591 - HameKameKa
+
+~~~python
+def retorna_total_as(str):
+    str_split_lst = str.split('k')
+    num1 = str_split_lst[0].count('a')
+    num2 = str_split_lst[1].count('a')
+    return num1 * num2
+
+qtd = int(input())
+
+for i in range(0, qtd): 
+    entrada = input()
+    total = retorna_total_as(entrada)
+    print("k" + "a" * total)
 ~~~
