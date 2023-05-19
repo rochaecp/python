@@ -55,6 +55,22 @@ while True:
         break
 ~~~
 
+# 2137 - A Biblioteca do Senhor Severino
+
+~~~python
+while True:
+    try:
+        casos = int(input())
+        codigos = []
+        for x in range(0, casos):
+            codigo = int(input())
+            codigos.append(codigo)
+        codigos.sort()
+        [print(str(x).zfill(4)) for x in codigos]
+    except EOFError:
+        break
+~~~
+
 # 2591 - HameKameKa
 
 ~~~python

@@ -113,11 +113,11 @@ minha_string = "Mauricio"
 minha_string = minha_string[:0] + 'X' + minha_string[1:] # Xauricio
 ~~~
 
-# Transformar uma string em uma lista
+# Preencher com zeros o início de uma string
 
 ~~~python
-minha_string = "banana tomate maçã"
-minha_lista = minha_string.split(' ') # ' ' é o separador: ['banana', 'tomate', 'maçã']
+meu_valor = 5
+meu_valor_modif = str(meu_valor).zfill(3) # 005
 ~~~
 
 # Remover espaços iniciais e finais de uma string
@@ -125,6 +125,13 @@ minha_lista = minha_string.split(' ') # ' ' é o separador: ['banana', 'tomate',
 ~~~python
 minha_string = " mauricio "
 minha_string_sem_esp = minha_string.strip()
+~~~
+
+# Transformar uma string em uma lista
+
+~~~python
+minha_string = "banana tomate maçã"
+minha_lista = minha_string.split(' ') # ' ' é o separador: ['banana', 'tomate', 'maçã']
 ~~~
 
 # Juntar os elementos de uma lista, tupla ou dicionário em uma string
@@ -194,4 +201,3 @@ my_join = ' '.join(meu_dicionario) # name country
 - title() - Converte o primeiro caractere de cada palavra para maiúscula 
 - translate() - Retorna uma string traduzida 
 - upper() - Converte uma string para maiúscula 
-- zfill() -  Preenche o string com um número especificado de valores 0 no início

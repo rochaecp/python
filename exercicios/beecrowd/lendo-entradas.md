@@ -19,7 +19,7 @@ my_line = input().split()
 my_list = list(map(int, my_line)) # map function transforms values to integers 
 ~~~
 
-# Lendo várias linahas
+# Lendo várias linhas
 
 ~~~python
 my_list = []
