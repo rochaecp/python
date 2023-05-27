@@ -5,6 +5,7 @@
 - Inteligência Artificial
     - [Aprendizado de Máquinas](aprendizado-de-maquina/README.md)
     - [Scikit Learn](scikit-learn/README.md)
+    - [Pytorch](pytorch/README.md)
 - Análise de Dados
     - [Pandas](pandas/README.md)
 - Computação Gráfica
