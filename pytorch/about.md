@@ -9,11 +9,11 @@
 - São Arrays multidimensionais
 - Semelhantes à matrizes NumPy
 - Possui 5 tipos:
-    1. FloatTensor: 32-bit float (é o tipo default)
-    1. DoubleTensor: 64-bit float
-    1. HalfTensor: 16-bit float
-    1. IntTensor: 32-bit int
-    1. LongTensor: 64-bit int
+    - FloatTensor: 32-bit float (é o tipo default)
+    - DoubleTensor: 64-bit float
+    - HalfTensor: 16-bit float
+    - IntTensor: 32-bit int
+    - LongTensor: 64-bit int
 
 
 

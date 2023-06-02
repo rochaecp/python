@@ -2,7 +2,7 @@
 
 Um dicionário é uma coleção ordenada (a partir do Python 3.7), modificável e não permite itens duplicados.  
 São utilizados para gravar dados como pares chave (key) e valor (value).  
-Não é possível copiar um dicionário fazendo ```dict2 = dict1```. Isso faria dict2 guardar uma referência para dict1.  
+Não é possível copiar um dicionário fazendo ```dict2 = dict1```. Isso faria dict2 guardar uma referência para dict-  
 
 ## Criar um dicionário
 

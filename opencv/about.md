@@ -8,11 +8,11 @@ Site oficial: [https://opencv.org/](https://opencv.org/)
 
 #### Pelo pip
 
-1. Abrir o terminal e instalar o pip
-1. Rodar o comando ```pip install opencv-python```
+- Abrir o terminal e instalar o pip
+- Rodar o comando ```pip install opencv-python```
 
 #### Pelo Anaconda
 
-1. Instalar o Anaconda
-1. Abrir o prompt do Anaconda e rodar o comando ```conda install opencv```
+- Instalar o Anaconda
+- Abrir o prompt do Anaconda e rodar o comando ```conda install opencv```
 
