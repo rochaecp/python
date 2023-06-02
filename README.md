@@ -1,23 +1,23 @@
 # Python
 
 - Linguagem
-    - [Python](python/README.md)
+    - [Python](estudos/python/README.md)
 - Inteligência Artificial
-    - [Aprendizado de Máquinas](aprendizado-de-maquina/README.md)
-    - [Scikit Learn](scikit-learn/README.md)
-    - [Pytorch](pytorch/README.md)
+    - [Aprendizado de Máquinas](estudos/aprendizado-de-maquina/README.md)
+    - [Scikit Learn](estudos/scikit-learn/README.md)
+    - [Pytorch](estudos/pytorch/README.md)
 - Análise de Dados
-    - [Pandas](pandas/README.md)
+    - [Pandas](estudos/pandas/README.md)
 - Computação Gráfica
-    - [OpenCV](opencv/README.md)
+    - [OpenCV](estudos/opencv/README.md)
 - Interfaces Gráficas
-    - [TKinter](tkinter/README.md)
-    - [PyQt](pyqt/README.md)
+    - [TKinter](estudos/tkinter/README.md)
+    - [PyQt](estudos/pyqt/README.md)
 - Jogos
     - Pygame
     - Godot    
 - Tratamento de PDFs
-    - [PyPDF2](pypdf2/README.md)
-    - [PyMuPDF](pymupdf/README.md)
+    - [PyPDF2](estudos/pypdf2/README.md)
+    - [PyMuPDF](estudos/pymupdf/README.md)
 - Treinos
-    - [Exercícios](exercicios/README.md)
+    - [Exercícios](estudos/exercicios/README.md)
