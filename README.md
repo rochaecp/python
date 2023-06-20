@@ -1,23 +1,61 @@
 # Python
 
-- Linguagem
-    - [Python](estudos/python/README.md)
-- Inteligência Artificial
-    - [Aprendizado de Máquinas](estudos/aprendizado-de-maquina/README.md)
-    - [Scikit Learn](estudos/scikit-learn/README.md)
-    - [Pytorch](estudos/pytorch/README.md)
-- Análise de Dados
-    - [Pandas](estudos/pandas/README.md)
-- Computação Gráfica
-    - [OpenCV](estudos/opencv/README.md)
-- Interfaces Gráficas
-    - [TKinter](estudos/tkinter/README.md)
-    - [PyQt](estudos/pyqt/README.md)
-- Jogos
-    - Pygame
-    - Godot    
-- Tratamento de PDFs
-    - [PyPDF2](estudos/pypdf2/README.md)
-    - [PyMuPDF](estudos/pymupdf/README.md)
-- Treinos
-    - [Exercícios](estudos/exercicios/README.md)
+- Introdução
+    - [CLI e PIP](estudos/linha-comando.md)
+    - [Criando um .venv](estudos/venv.md)
+    - [Sobre o Python](estudos/about.md)
+    - [Tipos de Dados](estudos/tipos.md)
+    - [Variáveis e Constantes](estudos/variaveis-constantes.md)
+    - [Operadores](estudos/operadores.md)
+    - [Casting](estudos/casting.md)
+    - [Inputs e outputs pelo console](estudos/input-output.md)
+    - [Strings](estudos/strings.md)
+    - [Math](estudos/math.md)
+    - [Gerar Números aleatórios](estudos/aleatorios.md)
+    - [Datas](estudos/datas.md)
+- Comandos Condicionais e de Repetição
+    - [If..Else](estudos/if-else.md)
+    - [Switch](estudos/#) - Não há
+    - [Pass](estudos/pass.md)
+    - [While](estudos/while.md)
+    - [Do...While](estudos/#) - Não há
+    - [For](estudos/for.md)
+- Estruturas de Dados
+    - [Arrays](estudos/#) - Não há (usamos listas ou lib NumPy)
+    - [Listas](estudos/listas.md)
+    - [Tuplas](estudos/tuplas.md)
+    - [Conjuntos](estudos/conjuntos.md)
+    - [Dicionários](estudos/dicionarios.md)
+- Outros
+    - [Funções](estudos/funcoes.md)
+    - [Lambda](estudos/lambda.md)
+    - [Recursão](estudos/recursao.md)
+    - [Arquivos](estudos/arquivos.md)
+    - [Exceções](estudos/excecoes.md)
+- POO
+    - [Modulos](estudos/modulos.md)
+    - [Bibliotecas](estudos/bibliotecas.md)
+    - [Classes](estudos/classes.md)
+- Exemplos diversos
+    - [Usando o webservice ViaCEP](estudos/ex-viacep.md)
+    - [Usando a API pokemons](estudos/ex-pokemon.md)
+    - [Pegar o código fonte de qualquer página](estudos/ex-source-code.md)
+- Exercícios estudos/beecrowd
+- estudos/beecrowd - Úteis
+    - [Lendo uma entrada](estudos/beecrowd/lendo-entradas.md)
+- Matplotlib
+    - [Sobre o Matplotlib](estudos/matplotlib/about.md)
+    - [Pyplot](estudos/matplotlib/pyplot.md)
+    - [Pyplot - Marcadores](estudos/matplotlib/pyplot-marcadores.md)
+- OpenCV
+    - [Lendo e exibindo uma imagem](estudos/opencv/lendo-exibindo-imagem.md)
+    - [Salvando uma copia de uma imagem](estudos/opencv/salvando-copia-imagem.md)
+    - [Lendo e exibindo um vídeo](estudos/opencv/lendo-exibindo-video.md)    
+- estudos/beecrowd
+    - [Iniciante - 1000 a 1050](estudos/beecrowd/iniciante-1000-1050.md)
+    - [Iniciante - 1051 a 1100](estudos/beecrowd/iniciante-1051-1100.md)
+    - [Iniciante - 1101 a 1150](estudos/beecrowd/iniciante-1101-1150.md)
+    - [Estruturas e Bibliotecas](estudos/beecrowd/estruturas-e-bibliotecas.md)
+    - [Strings](estudos/beecrowd/strings.md)
+    - [Ad-hoc](estudos/beecrowd/adhoc.md)
+    - [Matemática](estudos/beecrowd/matematica.md)    
