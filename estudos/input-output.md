@@ -6,6 +6,7 @@
 x = input("name:  ")        # python 3 - string
 x = raw_input("name:  ")    # python 2 - string
 a = int(input())
+n2 = float(input())
 ~~~
 
 ## Output
