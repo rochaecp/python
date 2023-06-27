@@ -37,19 +37,7 @@
     - [Bibliotecas](estudos/bibliotecas.md)
     - [Classes](estudos/classes.md)
 - Exemplos diversos
+    - [Lendo uma entrada no Beecrowd](estudos/lendo-entradas.md)    
     - [Usando o webservice ViaCEP](estudos/ex-viacep.md)
     - [Usando a API pokemons](estudos/ex-pokemon.md)
-    - [Pegar o código fonte de qualquer página](estudos/ex-source-code.md)
-- OpenCV
-    - [Lendo e exibindo uma imagem](estudos/opencv/lendo-exibindo-imagem.md)
-    - [Salvando uma copia de uma imagem](estudos/opencv/salvando-copia-imagem.md)
-    - [Lendo e exibindo um vídeo](estudos/opencv/lendo-exibindo-video.md)    
-- Exercícios Beecrowd
-    - [Lendo uma entrada](estudos/beecrowd/lendo-entradas.md)
-    - [Iniciante - 1000 a 1050](estudos/beecrowd/iniciante-1000-1050.md)
-    - [Iniciante - 1051 a 1100](estudos/beecrowd/iniciante-1051-1100.md)
-    - [Iniciante - 1101 a 1150](estudos/beecrowd/iniciante-1101-1150.md)
-    - [Estruturas e Bibliotecas](estudos/beecrowd/estruturas-e-bibliotecas.md)
-    - [Strings](estudos/beecrowd/strings.md)
-    - [Ad-hoc](estudos/beecrowd/adhoc.md)
-    - [Matemática](estudos/beecrowd/matematica.md)       
+    - [Pegar o código fonte de qualquer página](estudos/ex-source-code.md)     
