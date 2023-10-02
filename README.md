@@ -28,7 +28,7 @@
 
 ## Curso 1
 
-- [Pré-Pprocessamento](estudos/curso_1_ml_pre_process.ipynb)
+- [Pré-Processamento](estudos/curso_1_ml_pre_process.ipynb)
 
 # Python - Old
 
