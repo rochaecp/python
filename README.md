@@ -11,6 +11,7 @@
 - [Matplotlib](estudos/matplotlib.ipynb)
 - [Numpy](estudos/numpy.ipynb)
 - [Pandas](estudos/pandas.ipynb)
+- [OpenCV](estudos/opencv.ipynb)
 - [Pytorch - Tensores](estudos/pytorch_tensores.ipynb)
 - [Pytorch - Redes Neurais](estudos/pytorch_redes_neurais.ipynb)
 
@@ -20,6 +21,10 @@
 - [Perceptron](estudos/formacao_perceptron.ipynb)
 - [Funções de Perda](estudos/formacao_funcoes_de_perda.ipynb)
 - [Diversos](estudos/formacao_pytorch_diversos.ipynb)
+
+# Curso em Machine Learning - Google Colab
+
+
 
 # Python - Old
 
