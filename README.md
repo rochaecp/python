@@ -8,6 +8,11 @@
 - [Dicionários](estudos/dicionarios.ipynb)
 - [POO](estudos/poo.ipynb)
 - [Aplicações](estudos/aplicacoes.ipynb)
+- [Matplotlib](estudos/matplotlib.ipynb)
+- [Numpy](estudos/numpy.ipynb)
+- [Pandas](estudos/pandas.ipynb)
+- [Pytorch - Tensores](estudos/pytorch_tensores.ipynb)
+- [Pytorch - Redes Neurais](estudos/pytorch_redes_neurais.ipynb)
 
 # Formação em Deep Learning - Google Colab
 
