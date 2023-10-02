@@ -1,4 +1,22 @@
-# Python
+# Python - Google Colab
+
+- [Introdução](estudos/introducao.ipynb)
+- [Strings](estudos/strings.ipynb)
+- [Listas](estudos/listas.ipynb)
+- [Tuplas](estudos/tuplas.ipynb)
+- [Conjuntos](estudos/conjuntos.ipynb)
+- [Dicionários](estudos/dicionarios.ipynb)
+- [POO](estudos/poo.ipynb)
+- [Aplicações](estudos/aplicacoes.ipynb)
+
+# Formação em Deep Learning - Google Colab
+
+- [Tensores](estudos/formacao_tensores.ipynb)
+- [Perceptron](estudos/formacao_perceptron.ipynb)
+- [Funções de Perda](estudos/formacao_funcoes_de_perda.ipynb)
+- [Diversos](estudos/formacao_pytorch_diversos.ipynb)
+
+# Python - Old
 
 - Introdução
     - [CLI e PIP](estudos/linha-comando.md)
