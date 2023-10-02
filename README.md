@@ -15,16 +15,20 @@
 - [Pytorch - Tensores](estudos/pytorch_tensores.ipynb)
 - [Pytorch - Redes Neurais](estudos/pytorch_redes_neurais.ipynb)
 
-# Formação em Deep Learning - Google Colab
+# Deep Learning - Formação - Google Colab
+
+## Formação 1
 
 - [Tensores](estudos/formacao_tensores.ipynb)
 - [Perceptron](estudos/formacao_perceptron.ipynb)
 - [Funções de Perda](estudos/formacao_funcoes_de_perda.ipynb)
 - [Diversos](estudos/formacao_pytorch_diversos.ipynb)
 
-# Curso em Machine Learning - Google Colab
+# Machine Learning - Google Colab
 
+## Curso 1
 
+- [Pré-Pprocessamento](estudos/curso_1_ml_pre_process.ipynb)
 
 # Python - Old
 
