@@ -5,6 +5,7 @@
     - [Criando um .venv](estudos/uteis/venv.md)
     - [PIP](estudos/uteis/pip.md)
     - [Conda](estudos/uteis/conda.md)
+    - [Jupyter Notebook](estudos/uteis/jupyter-notebook.md)
 - Linguagem Python
     - [Sobre o Python](estudos/ling-python/about.md)
     - [Tipos de Dados](estudos/ling-python/tipos.md)
