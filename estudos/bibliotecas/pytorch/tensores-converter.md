@@ -72,8 +72,18 @@ print()
 import torch
 
 tns = torch.randn(2, 3)
-
 arr = tns.data.numpy()
 print(arr)
 print(type(arr))
+```
+
+## Tensor de 1D em escalar
+
+```python
+import torch
+
+tns = torch.tensor(8)
+escalar = tns.item()
+print(escalar)
+print(type(escalar))
 ```
