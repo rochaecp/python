@@ -55,15 +55,32 @@
 
 ## Pytorch
 
+- [Tensores - Úteis](estudos/bibliotecas/pytorch/tensores-uteis.md)
 - [Tipos de Tensores](estudos/bibliotecas/pytorch/tensores-tipos.md)
 - [Criar Tensores](estudos/bibliotecas/pytorch/tensores-criar.md)
 - [Operações com Tensores](estudos/bibliotecas/pytorch/tensores-operacoes.md)
-- [Indexação de Tensores](estudos/bibliotecas/pytorch/tensores-indexar.md)
+- [Indexar Tensores](estudos/bibliotecas/pytorch/tensores-indexar.md)
 - [Converter Tensores](estudos/bibliotecas/pytorch/tensores-converter.md)
 - [Concatenar Tensores](estudos/bibliotecas/pytorch/tensores-concatenar.md)
-- [Tensores - Diversos](estudos/bibliotecas/pytorch/tensores-diversos.md)
+
+## Numpy
+
+- [Úteis](estudos/bibliotecas/numpy/numpy-uteis.md)
+- [Criar arrays Numpy](estudos/bibliotecas/numpy/numpy-criar.md)
+- [Indexar arrays Numpy](estudos/bibliotecas/numpy/numpy-indexar.md)
+
+## Pandas
+
+- [Úteis](estudos/bibliotecas/pandas/pandas-uteis.md)
+- [Criar DF](estudos/bibliotecas/pandas/pandas-criar.md)
+
+## Matplotlib
+
+- [Úteis](estudos/bibliotecas/matplotlib/matplotlib-uteis.md)
+- [Plot](estudos/bibliotecas/matplotlib/matplotlib-plot.md)
 
 ## OpenCV
+
 - [Lendo e exibindo uma imagem](estudos/bibliotecas/opencv/lendo-exibindo-imagem.md)
 - [Lendo e exibindo um vídeo](estudos/bibliotecas/opencv/lendo-exibindo-video.md)
 - [Salvando uma cópia de uma imagem](estudos/bibliotecas/opencv/salvando-copia-imagem.md)
