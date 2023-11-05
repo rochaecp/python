@@ -38,16 +38,25 @@
     - [Modulos](estudos/poo/modulos.md)
     - [Bibliotecas](estudos/poo/bibliotecas.md)
     - [Classes](estudos/poo/classes.md)
-- OpenCV
-    - [Lendo e exibindo uma imagem](estudos/bibliotecas/opencv/lendo-exibindo-imagem.md)
-    - [Lendo e exibindo um vídeo](estudos/bibliotecas/opencv/lendo-exibindo-video.md)
-    - [Salvando uma cópia de uma imagem](estudos/bibliotecas/opencv/salvando-copia-imagem.md)
-    - [Salvando uma cópia de um vídeo (webcam)](estudos/bibliotecas/opencv/salvando-copia.video.md)
 - Exemplos
     - [Lendo uma entrada no Beecrowd](estudos/exemplos/beecrowd/lendo-entradas.md)    
     - [Usando o webservice ViaCEP](estudos/exemplos/ex-viacep.md)
     - [Usando a API pokemons](estudos/exemplos/ex-pokemon.md)
     - [Pegar o código fonte de qualquer página](estudos/exemplos/ex-source-code.md)     
+- Bibliotecas
+    - Pytorch
+        - [Tipos de Tensores](estudos/bibliotecas/pytorch/tensores-tipos.md)
+        - [Criar Tensores](estudos/bibliotecas/pytorch/tensores-criar.md)
+        - [Operações com Tensores](estudos/bibliotecas/pytorch/tensores-operacoes.md)
+        - [Indexação de Tensores](estudos/bibliotecas/pytorch/tensores-indexar.md)
+        - [Converter Tensores](estudos/bibliotecas/pytorch/tensores-converter.md)
+        - [Concatenar Tensores](estudos/bibliotecas/pytorch/tensores-concatenar.md)
+        - [Tensores - Diversos](estudos/bibliotecas/pytorch/tensores-diversos.md)
+    - OpenCV
+        - [Lendo e exibindo uma imagem](estudos/bibliotecas/opencv/lendo-exibindo-imagem.md)
+        - [Lendo e exibindo um vídeo](estudos/bibliotecas/opencv/lendo-exibindo-video.md)
+        - [Salvando uma cópia de uma imagem](estudos/bibliotecas/opencv/salvando-copia-imagem.md)
+        - [Salvando uma cópia de um vídeo (webcam)](estudos/bibliotecas/opencv/salvando-copia.video.md)
 
 ## Google Colab
 
