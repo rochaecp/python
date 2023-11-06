@@ -1,8 +1,8 @@
 # PyTorch - Tensores
 
-# Propriedades
+## Propriedades
 
-```python
+~~~python
 import torch
 
 tns = torch.randn(3, 4)
@@ -16,11 +16,11 @@ print(tns.shape)
 print(tns.shape[0]) # dimensão x
 print(tns.shape[1]) # dimensão x
 print()
-```
+~~~
 
-# Métodos
+## Métodos
 
-```python
+~~~python
 import torch
 
 tns = torch.randn(2, 2, 3)
@@ -44,14 +44,14 @@ print()
 
 # item()
 
-```
+~~~
 
 # GPU Cast
 
 - Incluir GPU no Collab:
     - Editar -> Configurações do Notebook
 
-```python
+~~~python
 import torch
 
 tns = torch.randn(10)
@@ -68,7 +68,7 @@ print()
 # jogar informações na gpu
 tensor = tns.to(device)
 print(tns)
-```
+~~~
 
 # Exercícios
 
@@ -76,7 +76,7 @@ print(tns)
 
 - Crie um tensor aleatório tns1 com a dimensionalidade 7 x 7 x 3 e um outro tensor aleatório tns2 de 147 x 1. Modificando apenas tns1 some os dois tensores.
 
-```python
+~~~python
 import torch
 
 tns1 = torch.randn(7, 7, 3)
@@ -84,4 +84,4 @@ tns2 = torch.randn(147, 1)
 
 tns1_modific = tns1.view(-1, 1) # achata o tensor
 print(tns1_modific + tns2)
-```
+~~~

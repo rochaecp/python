@@ -1,0 +1,5 @@
+# PyTorch
+
+## Alguns pacotes
+
+- TorchVision
