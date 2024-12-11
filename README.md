@@ -46,6 +46,10 @@
 - [Bibliotecas](estudos/poo/bibliotecas.md)
 - [Classes](estudos/poo/classes.md)
 
+#### Inteligência Artificial
+
+- [Glossário Geral](estudos/ia/glossario.md)
+
 #### Pytorch
 
 - [Tensores - Úteis](estudos/pytorch/tensores-uteis.md)
