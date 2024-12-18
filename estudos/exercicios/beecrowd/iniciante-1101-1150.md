@@ -88,12 +88,87 @@ while n != 0:
 ### 1117 - Validação de Nota
 
 ~~~python
+media = 0
+notas_validas = []
 
+while len(notas_validas) < 2:
+    try:
+        nota = float(input())
+        
+        if nota < 0 or nota > 10:
+            print("nota invalida")
+        else:
+            notas_validas.append(nota)
+    except ValueError:
+        break
+
+media = sum(notas_validas) / 2
+print(f"media = {media:.2f}")
 ~~~
 
 ### 1118 - Várias Notas Com Validação
 
 ~~~python
+notas_validas = []
+ind_continua = True
+media = 0
+
+while ind_continua:
+    try:
+        nota = float(input())
+        if nota < 0 or nota > 10:
+            print("nota invalida")
+        else:
+            notas_validas.append(nota)
+            if len(notas_validas) == 2:
+                media = sum(notas_validas) / 2
+                print(f"media = {media:.2f}")
+                
+                opcao = 0
+                notas_validas = []
+                while opcao != 1 or opcao !=2:
+                    print("novo calculo (1-sim 2-nao)")
+                    opcao = int(input())
+                    if opcao == 1:
+                        break
+                    elif opcao == 2:
+                        ind_continua = False
+                        break
+    except ValueError:
+        break
+~~~
+
+~~~python
+# solução de um chatbot
+while True:
+    notas_validas = []
+
+    # Ler e validar notas
+    while len(notas_validas) < 2:
+        try:
+            nota = float(input())
+            if 0 <= nota <= 10:
+                notas_validas.append(nota)
+            else:
+                print("nota invalida")
+        except ValueError:
+            print("nota invalida")
+
+    # Calcular e exibir a média
+    media = sum(notas_validas) / 2
+    print(f"media = {media:.2f}")
+
+    # Solicitar novo cálculo
+    while True:
+        print("novo calculo (1-sim 2-nao)")
+        try:
+            opcao = int(input())
+            if opcao == 1:
+                break  # Reinicia o programa
+            elif opcao == 2:
+                exit()  # Encerra o programa
+        except ValueError:
+            pass  # Continue no loop até o usuário digitar 1 ou 2
 
 ~~~
 

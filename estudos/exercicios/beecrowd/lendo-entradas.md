@@ -1,6 +1,6 @@
 # Python - Beecrowd
 
-# Lendo uma entrada a partir de um arquivo
+## Lendo uma entrada a partir de um arquivo
 
 - Nome do arquivo com as entradas: entradas.txt
 - Comando: 
@@ -12,14 +12,14 @@ primeira_linha = input()
 print(primeira_linha)
 ~~~
 
-# Lendo vários valores em uma mesma linha
+## Lendo vários valores em uma mesma linha
 
 ~~~python
 my_line = input().split()
 my_list = list(map(int, my_line)) # map function transforms values to integers 
 ~~~
 
-# Lendo várias linhas
+## Lendo várias linhas
 
 ~~~python
 my_list = []

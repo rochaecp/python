@@ -603,7 +603,7 @@ type3 = input()
 print(define_type(type1, type2, type3))
 ~~~
 
-### 1050 -     DDD
+### 1050 - DDD
 
 ~~~python
 ddd = {

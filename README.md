@@ -96,5 +96,10 @@
 
 #### Exercícios
 
-- [Iniciante](estudos/exercicios/beecrowd/iniciante-1000-1050.md)
+- [Iniciante: 1000 a 1050](estudos/exercicios/beecrowd/iniciante-1000-1050.md)
+- [Iniciante: 1051 a 1100](estudos/exercicios/beecrowd/iniciante-1051-1100.md)
+- [Iniciante: 1101 a 1150](estudos/exercicios/beecrowd/iniciante-1101-1150.md)
+    - *parei aqui*
+- [Estruturas e Bibliotecas](estudos/exercicios/beecrowd/estruturas-e-bibliotecas.md)
+- [Matemática](estudos/exercicios/beecrowd/matematica.md)
 - [Adhoc](estudos/exercicios/beecrowd/adhoc.md)
