@@ -40,7 +40,7 @@
 - [Conjuntos](estudos/estrut-dados/conjuntos.md)
 - [Dicionários](estudos/estrut-dados/dicionarios.md)
 
-#### POO
+#### Programação Orientada a Objetos
 
 - [Modulos](estudos/poo/modulos.md)
 - [Bibliotecas](estudos/poo/bibliotecas.md)
