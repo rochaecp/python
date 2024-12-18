@@ -93,3 +93,9 @@ print("a é maior") if a > b else print("b é maior")
 ~~~python
 print("a é maior") if a > b else print("a igual a b") if a == b else print("b é maior")
 ~~~
+
+## Eval
+
+~~~python
+print(eval("2 + 2 * 3"))
+~~~

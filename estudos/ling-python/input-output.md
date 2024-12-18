@@ -9,6 +9,12 @@ a = int(input())
 n2 = float(input())
 ~~~
 
+~~~python
+x_str = input("Nome: ")
+x_int = int(input("Idade: "))
+x_float = float(input("Salario: "))
+~~~
+
 ## Output
 
 Formatando pontos flutuantes: ```%f```, ```%i```.    
@@ -26,4 +32,32 @@ print(my_list[0])
 print("x = {} e y = {}".format(x, y))
 print("MEDIA = {:.1f}".format(media))
 print("x = {a} e y = {b}".format(a=x, b=y))
+~~~
+
+~~~python
+nome = "Mauricio"
+idade = 31
+salario = 15340.45
+linguagens = ["JavaScript", "Python", "C#"]
+
+print("Nome: " + nome)
+print("Nome " * 3)
+print()
+
+print("Nome:", nome, "idade:", idade)
+print("Idade: " + str(idade))
+print("Nome = {} e Idade = {}".format(nome, idade))
+print("Nome = {a} e Idade = {b}".format(a=nome, b=idade))
+print()
+
+# float
+print("Salario: %i" %salario)
+print("Salario: %0.2f" %salario)
+print("Salario: {:.1f}".format(salario))
+print()
+
+# listas
+print("Linguagens:", linguagens)
+print("Linguagem 1: " +  linguagens[0])
+print()
 ~~~

@@ -4,14 +4,14 @@
 - 'hello' é o mesmoq que "hello"
 - Python não possui um tipo caractere (usamos uma string com tamanho 1)
 
-# Criar uma string
+## Criar uma string
 
 ~~~python
 minha_string_1 = "abcdefg"
 minha_string_2 = 'abcdefg'
 ~~~
 
-# Criar uma string com múltiplas linhas
+## Criar uma string com múltiplas linhas
 
 ~~~python
 a = """Mauricio
@@ -19,13 +19,13 @@ Rocha
 """
 ~~~
 
-# Concatenar uma string
+## Concatenar uma string
 
 ~~~python
 minha_string = "bom" + " dia" 
 ~~~
 
-# Acessar caracteres de uma uma string
+## Acessar caracteres de uma uma string
 
 ~~~python
 minha_string = "Mauricio"
@@ -38,7 +38,7 @@ for x in minha_string:
   print(x)
 ~~~
 
-# Obter fatias de uma string
+## Obter fatias de uma string
 
 ~~~python
 minha_string = "Mauricio"
@@ -48,25 +48,25 @@ minha_string_2 = minha_string_1[2:]  # até o fim
 minha_string_2 = minha_string_1[-3:] # últimos 3
 ~~~
 
-# Obter o tamanho de uma string
+## Obter o tamanho de uma string
 
 ~~~python
 tamanho = len(minha_string)
 ~~~
 
-# Obter o unicode de uma string
+## Obter o unicode de uma string
 
 ~~~python
 meu_unicode = ord("A") 
 ~~~
 
-# Obter um caractere a partir de um unicode
+## Obter um caractere a partir de um unicode
 
 ~~~python
 minha_string = chr(35)  # string - character whose Unicode code point is the integer
 ~~~
 
-# Testar uma string
+## Testar uma string
 
 ~~~python
 minha_string = 'Mauricio'
@@ -76,21 +76,21 @@ meu_boolean = "abacate" < "batata"      # True
 meu_boolean = "abacate" == "batata"     # False
 ~~~
 
-# Tornar uma string maiúscula
+## Tornar uma string maiúscula
 
 ~~~python
 minha_string = "maurício"
 minha_string_maiusc = minha_string.upper()
 ~~~
 
-# Tornar uma string minúscula
+## Tornar uma string minúscula
 
 ~~~python
 minha_string = "maurício"
 minha_string_minusc = minha_string.lower()
 ~~~
 
-# Substituir caracteres de uma string
+## Substituir caracteres de uma string
 
 Substitui todas as ocorrências na string.  
 
@@ -99,7 +99,7 @@ minha_string = "mauricio"
 minha_string_modif = minha_string.replace('i', 'X')
 ~~~
 
-# Modificar um caractere em um determinado índice de uma string
+## Modificar um caractere em um determinado índice de uma string
 
 ~~~python
 minha_string = "Mauricio"
@@ -113,28 +113,28 @@ minha_string = "Mauricio"
 minha_string = minha_string[:0] + 'X' + minha_string[1:] # Xauricio
 ~~~
 
-# Preencher com zeros o início de uma string
+## Preencher com zeros o início de uma string
 
 ~~~python
 meu_valor = 5
 meu_valor_modif = str(meu_valor).zfill(3) # 005
 ~~~
 
-# Remover espaços iniciais e finais de uma string
+## Remover espaços iniciais e finais de uma string
 
 ~~~python
 minha_string = " mauricio "
 minha_string_sem_esp = minha_string.strip()
 ~~~
 
-# Transformar uma string em uma lista
+## Transformar uma string em uma lista
 
 ~~~python
 minha_string = "banana tomate maçã"
 minha_lista = minha_string.split(' ') # ' ' é o separador: ['banana', 'tomate', 'maçã']
 ~~~
 
-# Juntar os elementos de uma lista, tupla ou dicionário em uma string
+## Juntar os elementos de uma lista, tupla ou dicionário em uma string
 
 ~~~python
 lista_str = ["5", "4", "3", "2", "1"]
@@ -157,7 +157,33 @@ meu_dicionario = {"name": "Mauricio", "country": "Brazil"}
 my_join = ' '.join(meu_dicionario) # name country
 ~~~
 
-# Métodos para strings
+## Slice
+
+~~~python
+nome = "Mauricio"
+print(nome[2:5]) # pos 2 incluso, pos 5 nao incluso
+print(nome[:5])
+print(nome[2:])
+print(nome[-3:]) # ultimos 3
+~~~
+
+## Alterar
+
+~~~python
+# jeito 1
+nome = "Mauricio"
+lista = list(nome)
+lista[0] = "X"
+nome = "".join(lista)
+print(nome)
+
+# jeito 2
+nome = "Mauricio"
+nome = nome[:0] + 'X' + nome[1:]
+print(nome)
+~~~
+
+## Métodos para strings
 
 - capitalize() - Converte o primeiro caractere em maiúsculas
 - casefold() -  Converte string em minúsculas 

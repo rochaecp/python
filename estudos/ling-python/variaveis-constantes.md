@@ -25,3 +25,7 @@ x, y, z = fruits # fruits = ["apple", "banana", "cherry"]
 ~~~
 
 ## Constantes
+
+~~~python
+
+~~~

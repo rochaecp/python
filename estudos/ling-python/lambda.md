@@ -33,7 +33,7 @@ my_list_animais = ["dog", "cat", "horse"]
 print(letter_counter(my_list_animais))
 ~~~
 
-Calculadora com dicionários:
+## Exemplo: Calculadora com dicionários
 
 ~~~python
 my_dict = {
@@ -52,7 +52,7 @@ print(my_sum(10, 5))
 print(my_mult(10, 5))
 ~~~
 
-Ordenação com dicionários:
+## Exemplo: Ordenação com dicionários
 
 ~~~python
 my_list = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}

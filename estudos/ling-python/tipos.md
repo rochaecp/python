@@ -49,3 +49,26 @@ myBool = bool(())
 myBool = bool([])
 myBool = bool({}) 
 ~~~
+
+## Exemplos
+
+~~~python
+x_int = 2
+
+x_float_1 = 10.5
+x_float_2 = 35e3
+x_float_3 = 12E4
+
+x_complex = 10j
+
+x_str = "dez"
+
+x_bool_1 = True
+x_bool_2 = False
+
+# x_bytes = ???
+# x_bytearray = ???
+# x_memoryview = ???
+
+print(type(x_float_1))
+~~~
