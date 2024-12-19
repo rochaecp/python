@@ -31,3 +31,5 @@
 ## Inteligência Artificial Restrita
 
 - Obtida a partir de algum método de ML.
+
+## 
