@@ -5,6 +5,7 @@
 - Conda-forge
     - Coleção de pacotes mantidos pelos usuários
     - Pacotes: anaconda.org
+    
 # Anaconda
 
 - É um instalador completo do conda

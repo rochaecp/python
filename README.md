@@ -16,6 +16,7 @@
 - [Operadores](estudos/ling-python/operadores.md)
 - [Casting](estudos/ling-python/casting.md)
 - [Inputs e outputs pelo console](estudos/ling-python/input-output.md)
+    <!-- continuar revisão aqui -->
 - [Arredondamentos](estudos/ling-python/arredondamentos.md)
 - [Strings](estudos/ling-python/strings.md)
 - [Math](estudos/ling-python/math.md)

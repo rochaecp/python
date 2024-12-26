@@ -122,3 +122,17 @@
 - neste ano a expansão da Inteligência Artificial tomou forma, sendo utilizada no dia a dia das pessoas.
 - IA no desenvolvimento de medicamentos e criatividade
 - Modelos como AlphaFold, da DeepMind, alcançaram avanços em biologia computacional, enquanto IA generativas começaram a ser amplamente utilizadas em arte, design e conteúdo criativo.
+- Criação da startup de inteligência artificial xAI (Elon Musk)
+
+## 2024
+
+- OpenAI revelou a GPT Store, para comercialização de chatbots feitos por pessoas.
+- Chatgpt adquire recursos como linguagem 4-o e o 4-o mini e o mecanismo de busca SearchGPT.
+- Nascimento e evolução do Google Gemini.
+- Plataformas foram acusadas de violação de direitos autorais ao alimentar modelos de linguagem com obras sem autorização — incluindo livros e até vídeos do YouTube.
+- Surgem preocupações energéticas no setor. O uso da IA gera gastos imensos de água e eletricidade, o que pode impactar em questões climáticas.
+- Empresas como Microsoft, Meta, Amazon e Google avançaram na utilização de energia nuclear como forma de alimentar data centers.
+- IA rende um prêmio Nobel de física.
+- NVidia se torna a empresa mais valiosa do mundo.
+- Avanço do projeto de lei de regulamentação da IA no Brasil.
+O Senado Federal aprovou, na última quarta-feira (18/12/24), o projeto de lei (PL) que proíbe celulares nas escolas.

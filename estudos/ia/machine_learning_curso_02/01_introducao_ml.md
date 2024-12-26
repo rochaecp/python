@@ -28,8 +28,15 @@
 
 - IA é o objetivo geral, ML é uma das ferramentas para alcançá-lo.
 
+## Inteligência Artificial Geral
+
+- Dos filmes, dirigir carro, etc...
+
 ## Inteligência Artificial Restrita
 
 - Obtida a partir de algum método de ML.
+- Restrita a alguns problemas.
 
-## 
+## Métodos de Machine Learning bioinspirados
+
+
