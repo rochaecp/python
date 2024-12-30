@@ -175,7 +175,53 @@ while True:
 ### 1131 - Grenais
 
 ~~~python
+qtd_grenais = 0
+vitorias_inter = 0
+vitorias_gremio = 0
+empates = 0
+continuar = True
 
+while continuar:
+
+    gols_inter = 0
+    gols_gremio = 0
+
+    linha = input().split(" ")
+    gols_inter = int(linha[0])
+    gols_gremio = int(linha[1])
+
+    qtd_grenais += 1
+
+    if gols_gremio > gols_inter:
+        vitorias_gremio += 1
+    elif gols_gremio == gols_inter:
+        empates += 1
+    else:
+        vitorias_inter += 1
+
+    while True:
+        print("Novo grenal (1-sim 2-nao)")
+        try:
+            opcao = int(input())
+            if opcao == 1:
+                break
+            elif opcao == 2:
+                continuar = False
+                break
+        except ValueError:
+            continuar = False
+
+print(f"{qtd_grenais} grenais")
+print(f"Inter:{vitorias_inter}")
+print(f"Gremio:{vitorias_gremio}")
+print(f"Empates:{empates}")
+
+if vitorias_inter > vitorias_gremio:
+    print("Inter venceu mais") 
+elif vitorias_gremio == vitorias_inter:
+    print("Nao houve vencedor")
+else:
+    print("Gremio venceu mais")
 ~~~
 
 ### 1132 - Múltiplos de 13

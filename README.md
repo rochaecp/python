@@ -7,6 +7,8 @@
 - [PIP](estudos/uteis/pip.md)
 - [Conda](estudos/uteis/conda.md)
 - [Jupyter Notebook](estudos/uteis/jupyter-notebook.md)
+- [PEP8](estudos/uteis/pep8.md)
+
 
 #### Linguagem Python
 
@@ -16,8 +18,8 @@
 - [Operadores](estudos/ling-python/operadores.md)
 - [Casting](estudos/ling-python/casting.md)
 - [Inputs e outputs pelo console](estudos/ling-python/input-output.md)
-    <!-- continuar revisão aqui -->
 - [Arredondamentos](estudos/ling-python/arredondamentos.md)
+    <!-- continuar revisão aqui -->
 - [Strings](estudos/ling-python/strings.md)
 - [Math](estudos/ling-python/math.md)
 - [Gerar Números aleatórios](estudos/ling-python/aleatorios.md)
