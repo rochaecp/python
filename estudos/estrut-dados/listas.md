@@ -6,6 +6,7 @@
 - Não se pode copiar uma lista fazendo apenas ``` list2 = list1 ```. É necessário usar o método ```copy()```.  
 - List Comprehension
     - Útil para criar uma lista baseada em outra já existente
+- Em Python é possível adicionar variáveis de mais de um tipo em uma mesma lista
 
 ## Criar uma lista
 

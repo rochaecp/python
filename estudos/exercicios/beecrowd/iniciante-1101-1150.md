@@ -227,13 +227,59 @@ else:
 ### 1132 - Múltiplos de 13
 
 ~~~python
+soma = 0
+valor1 = int(input())
+valor2 = int(input())
 
+# garante ordem crescente
+if valor1 > valor2:
+    aux = valor1
+    valor1 = valor2
+    valor2 = aux
+
+# soma os não múltiplos de 13
+for i in range(valor1, valor2 + 1):
+    if i % 13 != 0:
+        soma += i
+
+# exibe a saida
+print(soma)
+~~~
+
+~~~python
+# solução de um chatbot
+
+# Leitura dos valores de entrada
+x = int(input())
+y = int(input())
+
+# Determinar o menor e maior valor entre X e Y
+inicio = min(x, y)
+fim = max(x, y)
+
+# Calcular a soma dos números não múltiplos de 13
+soma = sum(i for i in range(inicio, fim + 1) if i % 13 != 0)
+
+# Exibir o resultado
+print(soma)
 ~~~
 
 ### 1133 - Resto da Divisão
 
 ~~~python
+x = int(input())
+y = int(input())
 
+inicio = min(x, y)
+fim = max(x, y)
+
+for valor in range(inicio + 1, fim):
+    if (valor % 5 == 2) or (valor % 5 == 3):
+        print(valor)
+
+
+inicio = min(x, y)
+fim = max(x, y)
 ~~~
 
 ### 1134 - Tipo de Combustível

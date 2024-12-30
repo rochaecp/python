@@ -39,4 +39,36 @@
 
 ## Métodos de Machine Learning bioinspirados
 
+- Algoritmos bioinspirados: inspirados no comportamento de seres vivos em convívio social
+    - Ex.: colônia de formigas, colônia de abelhas
+- Usam métodos heurísticos (não determinísticos - há um conjunto de respostas)
+- Lógica Fuzzy: 
+    - "lógica nebulosa"
+    - Qual o tamano de uma pessoa alta?
 
+## Algorítmos determinísticos
+
+- ex.: 2 + 2 = 4
+
+## Algorítmos heurísticos    
+
+- ex.: entre 10 pessoas qual é a mais bonita? 
+- usa lógica fuzzy ou lógica difusa (há uma região de busca)
+
+## Redes Neurais Artificiais (RNA)
+
+- São algoritmos bioinspirados
+- Biologicamente são as interligações entre os neurônios biológicos
+- Um Neurônio artificial é formado por:
+    - sinais de entrada (x1, x2, x3, ...)
+    - pesos sinápticos (w1, w2, w3, ...)
+    - combinador linear (faz uma combinação com os sinais de entrada)
+    - função de ativação (interpreta a saída do combinador linear)
+    - sinal de saída (resposta)
+
+    ![alt text](img/01_redes_neurais.png)
+
+## Treinamento de uma rede neural artificial    
+
+
+<!-- transcrito a mão até aqui -->

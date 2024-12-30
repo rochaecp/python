@@ -8,6 +8,7 @@
 
 ~~~python
 minha_tupla = ("pera", "uva", "melancia")
+minha_tupla2 = (1, 2, 3)
 ~~~
 
 #### Construtor (observe os parênteses repetidos)  
