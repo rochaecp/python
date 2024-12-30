@@ -126,6 +126,7 @@
 
 ## 2024
 
+- Em janeiro de 2024, Gemini se tornou o nome oficial da inteligência artificial do Google, abandonando o nome Bard.
 - OpenAI revelou a GPT Store, para comercialização de chatbots feitos por pessoas.
 - Chatgpt adquire recursos como linguagem 4-o e o 4-o mini e o mecanismo de busca SearchGPT.
 - Nascimento e evolução do Google Gemini.
@@ -135,4 +136,4 @@
 - IA rende um prêmio Nobel de física.
 - NVidia se torna a empresa mais valiosa do mundo.
 - Avanço do projeto de lei de regulamentação da IA no Brasil.
-O Senado Federal aprovou, na última quarta-feira (18/12/24), o projeto de lei (PL) que proíbe celulares nas escolas.
+- O Senado Federal aprovou, na última quarta-feira (18/12/24), o projeto de lei (PL) que proíbe celulares nas escolas.
