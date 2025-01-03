@@ -72,3 +72,45 @@
 <!-- ***************************************************** Transcrito a mão até aqui ***************************************************** -->
 
 ## Treinamento de uma rede neural artificial    
+
+- As camadas ocultas da RN selecionam as características (features) importantes para o reconhecimento de um gato, por exemplo.
+- Dataset: base de treino
+    - numa pasta insere fotos de gatos, noutra de cachorros
+- Treinar uma RN é atribuir valroes aos pesos da rede
+    - O arquivo de pesos pode ser um arquivo .txt, ele é o conhecimento adquirido
+    - A rede neural é só um modelo matemático, o aprendizado está nos pesos
+    - Transfer Learning: retirar o aprendizado de uma rede e inserir em outra (usado em robótica)
+
+## Classificação de Objetos
+
+- havendo 4 neurônios de saída teremos 4 valores de saída
+
+## Algoritmos Genéticos (AG)
+
+- É uma técnica de busca utilizada para encontrar soluções aproximaas em problemas de otimização e busca
+- Inspirados no comportamento genético
+- São algoritmos heurísticos (e não determinísticos)
+- Aplicações
+    - Robótica - amostras para desvios de rota
+    - IA
+    - Jogos Digitais
+    - Geração de Novos dados
+    - Chatbots - combinar respostas/perguntas para o usuário - deixa o sistema mais próximo de uma interação humana
+    - Roteamento de redes - encontrar o melhor caminho para o fluxo de dados
+- **Funcionamento**
+    - Gera de forma aleatória uma população inicial de indivíduos
+    - Executa a Função de Fitness (Função avaliação)
+        - Avalia se as amostras estão dentro de um intervalo desejado
+        - Seleciona melhores indivíduos (melhores amostras)
+    - Gera, a partir dos melhores indivíduos, uma população pré-selecionada que será recombinada (pais)
+    - Os pais geram recombinações (filhos)
+    - Executa a Função de Fitness novamente (agora para os filhos)
+        - Gera uma nova população
+    - Executa a função de mutação 
+        - inverte um bit, por exemplo. Pequena sempre
+    - Executa a Função de Fitness novamente 
+        - Pega a solução melhor (melhores amostras) - ótimo global
+
+## Métodos para Algoritmos Genéticos
+
+![alt text](img/02_algoritmos_geneticos.png)
