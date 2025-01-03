@@ -1,5 +1,7 @@
 # Python
 
+## Linguagem Python
+
 #### Úteis  
 
 - [CLI](estudos/uteis/linha-comando.md)
@@ -9,8 +11,7 @@
 - [Jupyter Notebook](estudos/uteis/jupyter-notebook.md)
 - [PEP8](estudos/uteis/pep8.md)
 
-
-#### Linguagem Python
+#### Introdução
 
 - [Sobre o Python](estudos/ling-python/about.md)
 - [Tipos de Dados](estudos/ling-python/tipos.md)
@@ -19,22 +20,23 @@
 - [Casting](estudos/ling-python/casting.md)
 - [Inputs e outputs pelo console](estudos/ling-python/input-output.md)
 - [Arredondamentos](estudos/ling-python/arredondamentos.md)
-    <!-- continuar revisão aqui -->
 - [Strings](estudos/ling-python/strings.md)
 - [Math](estudos/ling-python/math.md)
 - [Gerar Números aleatórios](estudos/ling-python/aleatorios.md)
 - [Datas](estudos/ling-python/datas.md)
+            <!-- -------------------------- continuar revisão aqui -------------------------- -->
+- [Funções](estudos/ling-python/funcoes.md)
+- [Funções Lambda](estudos/ling-python/lambda.md)
+- [Recursão](estudos/ling-python/recursao.md)
+
+#### Comandos Condicionais e de Repetição
+
 - [If..Else](estudos/ling-python/if-else.md)
 - [Switch](estudos/ling-python/#) - Não há
 - [Pass](estudos/ling-python/pass.md)
 - [While](estudos/ling-python/while.md)
 - [Do...While](estudos/ling-python/#) - Não há
 - [For](estudos/ling-python/for.md)
-- [Funções](estudos/ling-python/funcoes.md)
-- [Funções Lambda](estudos/ling-python/lambda.md)
-- [Recursão](estudos/ling-python/recursao.md)
-- [Arquivos](estudos/ling-python/arquivos.md)
-- [Exceções](estudos/ling-python/excecoes.md)
 
 #### Estruturas de Dados
 
@@ -49,6 +51,29 @@
 - [Modulos](estudos/poo/modulos.md)
 - [Bibliotecas](estudos/poo/bibliotecas.md)
 - [Classes](estudos/poo/classes.md)
+
+#### Outros
+
+- [Arquivos](estudos/ling-python/arquivos.md)
+- [Exceções](estudos/ling-python/excecoes.md)
+
+#### Exemplos
+
+- [Lendo uma entrada no Beecrowd](estudos/exemplos/beecrowd/lendo-entradas.md)    
+- [Usando o webservice ViaCEP](estudos/exemplos/ex-viacep.md)
+- [Usando a API pokemons](estudos/exemplos/ex-pokemon.md)
+- [Pegar o código fonte de qualquer página](estudos/exemplos/ex-source-code.md)
+
+#### Exercícios
+
+- [Iniciante: 1000 a 1050](estudos/exercicios/beecrowd/iniciante-1000-1050.md)
+- [Iniciante: 1051 a 1100](estudos/exercicios/beecrowd/iniciante-1051-1100.md)
+- [Iniciante: 1101 a 1150](estudos/exercicios/beecrowd/iniciante-1101-1150.md)
+- [Estruturas e Bibliotecas](estudos/exercicios/beecrowd/estruturas-e-bibliotecas.md)
+- [Matemática](estudos/exercicios/beecrowd/matematica.md)
+- [Adhoc](estudos/exercicios/beecrowd/adhoc.md)
+
+## Bibliotecas
 
 #### Pytorch
 
@@ -83,26 +108,9 @@
 - [Salvando uma cópia de uma imagem](estudos/opencv/salvando-copia-imagem.md)
 - [Salvando uma cópia de um vídeo (webcam)](estudos/opencv/salvando-copia.video.md)
 
-#### Inteligência Artificial
+## Inteligência Artificial
 
 - [Glossário Geral](estudos/ia/glossario.md)
 - [Machine Learning - Curso 01](estudos/ia/machine_learning_curso_01/README.md)
 - [Machine Learning - Curso 02](estudos/ia/machine_learning_curso_02/README.md)
-- [CDeep Learning - Curso 01](estudos/ia/deep_learning_curso_01/README.md)
-
-#### Exemplos
-
-- [Lendo uma entrada no Beecrowd](estudos/exemplos/beecrowd/lendo-entradas.md)    
-- [Usando o webservice ViaCEP](estudos/exemplos/ex-viacep.md)
-- [Usando a API pokemons](estudos/exemplos/ex-pokemon.md)
-- [Pegar o código fonte de qualquer página](estudos/exemplos/ex-source-code.md)
-
-#### Exercícios
-
-- [Iniciante: 1000 a 1050](estudos/exercicios/beecrowd/iniciante-1000-1050.md)
-- [Iniciante: 1051 a 1100](estudos/exercicios/beecrowd/iniciante-1051-1100.md)
-- [Iniciante: 1101 a 1150](estudos/exercicios/beecrowd/iniciante-1101-1150.md)
-    - *parei aqui*
-- [Estruturas e Bibliotecas](estudos/exercicios/beecrowd/estruturas-e-bibliotecas.md)
-- [Matemática](estudos/exercicios/beecrowd/matematica.md)
-- [Adhoc](estudos/exercicios/beecrowd/adhoc.md)
+- [Deep Learning - Curso 01](estudos/ia/deep_learning_curso_01/README.md)

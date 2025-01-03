@@ -285,7 +285,67 @@ fim = max(x, y)
 ### 1134 - Tipo de Combustível
 
 ~~~python
+# essa implementacao usa dicionarios apenas para treinar o uso dessa estruturas de dados
+combustiveis = {
+    "alcool" : {
+        "quantidade": 0
+    }, 
+    "gasolina" : {
+        "quantidade": 0
+    },
+    "diesel": {
+        "quantidade": 0
+    }
+}
 
+while True:
+    try:
+        leitura = int(input())
+        if leitura == 1:
+            combustiveis['alcool']['quantidade'] += 1
+        elif leitura == 2:
+            combustiveis['gasolina']['quantidade'] += 1
+        elif leitura == 3:
+            combustiveis['diesel']['quantidade'] += 1
+        elif leitura == 4:
+            break
+    except ValueError:
+        exit()
+
+print("MUITO OBRIGADO")
+print(f"Alcool: {combustiveis['alcool']['quantidade']}")
+print(f"Gasolina: {combustiveis['gasolina']['quantidade']}")
+print(f"Diesel: {combustiveis['diesel']['quantidade']}")
+~~~
+
+~~~python
+def main():
+    alcool = 0
+    gasolina = 0
+    diesel = 0
+
+    while True:
+        codigo = int(input())
+        
+        if codigo == 1:
+            alcool += 1
+        elif codigo == 2:
+            gasolina += 1
+        elif codigo == 3:
+            diesel += 1
+        elif codigo == 4:
+            break
+        else:
+            # Código inválido, ignora e pede novamente
+            continue
+
+    print("MUITO OBRIGADO")
+    print(f"Alcool: {alcool}")
+    print(f"Gasolina: {gasolina}")
+    print(f"Diesel: {diesel}")
+
+if __name__ == "__main__":
+    main()
 ~~~
 
 ### 1142 - PUM

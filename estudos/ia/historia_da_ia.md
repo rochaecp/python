@@ -111,6 +111,10 @@
 - O GPT-3 expande significativamente as capacidades, tornando-se a base para o ChatGPT.
 - A OpenAI lançou o GPT-3, um modelo de linguagem com bilhões de parâmetros, capaz de gerar textos com alta coerência e qualidade, marcando avanços no processamento de linguagem natural.
 
+## 2021
+
+- Início dos debates sobre o AI Act - referência global para legislação
+
 ## 2022
 
 - ChatGPT e expansão do uso de IA generativa

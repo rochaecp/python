@@ -3,14 +3,16 @@
 ## Funções diversas
 
 ~~~python
-x = sum(my_list)
-x = max(my_list)
-x = min(my_list)
-x = len(my_list)
+minha_lista = [1, 2, 3]
+
+a = sum(minha_lista) # 6 
+b = max(minha_lista) # 3
+c = min(minha_lista) # 1
+d = len(minha_lista) # 3
 ~~~
 
 ~~~python
-myVar = eval(expression)
+a = eval("2 + 3 * 2") # 8
 ~~~
 
 ## Convertendo um número para a base binária
