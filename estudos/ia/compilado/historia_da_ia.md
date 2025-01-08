@@ -110,6 +110,7 @@
 - GPT-3 é lançado
 - O GPT-3 expande significativamente as capacidades, tornando-se a base para o ChatGPT.
 - A OpenAI lançou o GPT-3, um modelo de linguagem com bilhões de parâmetros, capaz de gerar textos com alta coerência e qualidade, marcando avanços no processamento de linguagem natural.
+- Em 2020, a Comissão Europeia havia publicado a primeira Lista de Avaliação para IA Confiável (ALTAI).
 
 ## 2021
 
@@ -117,6 +118,7 @@
 
 ## 2022
 
+- Lançamento do ChatGPT em 30 de novembro de 2022 (temporariamente chamado de "Chat With GPT-3.5")
 - ChatGPT e expansão do uso de IA generativa
 - O ChatGPT, com o GPT-3.5 e GPT-4, chega ao público, revolucionando a forma de interagir com IA em conversas naturais.
 - Com o lançamento do ChatGPT, a OpenAI popularizou o uso de modelos de linguagem generativa para tarefas do dia a dia, como redação, codificação e assistência virtual.
@@ -141,3 +143,4 @@
 - NVidia se torna a empresa mais valiosa do mundo.
 - Avanço do projeto de lei de regulamentação da IA no Brasil.
 - O Senado Federal aprovou, na última quarta-feira (18/12/24), o projeto de lei (PL) que proíbe celulares nas escolas.
+- Em 13 de junho de 2024, foi aprovada a legislação europeia sobre IA, que entrará em vigor em dois anos.
