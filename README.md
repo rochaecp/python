@@ -8,35 +8,38 @@
 - [Criando um .venv](estudos/uteis/venv.md)
 - [PIP](estudos/uteis/pip.md)
 - [Conda](estudos/uteis/conda.md)
+- [Diversos](estudos/uteis/diversos.md)
+- [CUDA](estudos/uteis/cuda.md)
 - [Jupyter Notebook](estudos/uteis/jupyter-notebook.md)
 - [PEP8](estudos/uteis/pep8.md)
+- [Resumo](estudos/uteis/resumo.md)
 
 #### Introdução
 
-- [Sobre o Python](estudos/ling-python/about.md)
-- [Tipos de Dados](estudos/ling-python/tipos.md)
-- [Variáveis e Constantes](estudos/ling-python/variaveis-constantes.md)
-- [Operadores](estudos/ling-python/operadores.md)
-- [Casting](estudos/ling-python/casting.md)
-- [Inputs e outputs pelo console](estudos/ling-python/input-output.md)
-- [Arredondamentos](estudos/ling-python/arredondamentos.md)
-- [Strings](estudos/ling-python/strings.md)
-- [Math](estudos/ling-python/math.md)
-- [Gerar Números aleatórios](estudos/ling-python/aleatorios.md)
-- [Datas](estudos/ling-python/datas.md)
-            <!-- -------------------------- continuar revisão aqui -------------------------- -->
-- [Funções](estudos/ling-python/funcoes.md)
-- [Funções Lambda](estudos/ling-python/lambda.md)
-- [Recursão](estudos/ling-python/recursao.md)
+- [Sobre o Python](estudos/introducao/about.md)
+- [Tipos de Dados](estudos/introducao/tipos.md)
+- [Variáveis e Constantes](estudos/introducao/variaveis-constantes.md)
+- [Operadores](estudos/introducao/operadores.md)
+- [Casting](estudos/introducao/casting.md)
+- [Inputs e outputs pelo console](estudos/introducao/input-output.md)
+- [Arredondamentos](estudos/introducao/arredondamentos.md)
+- [Strings](estudos/introducao/strings.md) => [Exercícios](estudos/introducao/strings_exercicios.md)
+- [Math](estudos/introducao/math.md)
+- [Gerar Números aleatórios](estudos/introducao/aleatorios.md)
+- [Datas](estudos/introducao/datas.md)
+            <!-- ************************************************ continuar revisão aqui -->
+- [Funções](estudos/introducao/funcoes.md)
+- [Funções Lambda](estudos/introducao/lambda.md)
+- [Recursão](estudos/introducao/recursao.md)
 
 #### Comandos Condicionais e de Repetição
 
-- [If..Else](estudos/ling-python/if-else.md)
-- [Switch](estudos/ling-python/#) - Não há
-- [Pass](estudos/ling-python/pass.md)
-- [While](estudos/ling-python/while.md)
-- [Do...While](estudos/ling-python/#) - Não há
-- [For](estudos/ling-python/for.md)
+- [If..Else](estudos/comandos_condic_repetic/if-else.md)
+- [Switch](estudos/#) - Não há
+- [Pass](estudos/comandos_condic_repetic/pass.md)
+- [While](estudos/comandos_condic_repetic/while.md)
+- [Do...While](estudos/#) - Não há
+- [For](estudos/comandos_condic_repetic/for.md)
 
 #### Estruturas de Dados
 
@@ -54,8 +57,8 @@
 
 #### Outros
 
-- [Arquivos](estudos/ling-python/arquivos.md)
-- [Exceções](estudos/ling-python/excecoes.md)
+- [Arquivos](estudos/introducao/arquivos.md)
+- [Exceções](estudos/introducao/excecoes.md)
 
 #### Exemplos
 

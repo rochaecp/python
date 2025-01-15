@@ -1,7 +1,7 @@
 # Strings
 
 - Strings são Arrays de bytes que representam caracteres unicode
-- 'hello' é o mesmoq que "hello"
+- 'hello' é o mesmo que "hello"
 - Python não possui um tipo caractere (usamos uma string com tamanho 1)
 
 ## Criar uma string
@@ -161,12 +161,28 @@ my_join = ' '.join(meu_dicionario) # name country
 
 ## Slice
 
+- `sequencia[início:fim:passo]`
+    - início: Índice inicial (inclusivo). Define onde o slicing começa.
+        - se não for especificado, o Python assume o valor padrão None, ou seja, o início da string
+    - fim: Índice final (exclusivo). Define onde o slicing termina.
+        - se não for especificado, o Python assume o valor padrão None, ou seja, até o final da string.
+    - passo: Define o intervalo entre os elementos selecionados (pode ser negativo).
+        - O valor -1 significa que a sequência será percorrida de trás para frente, invertendo a ordem dos caracteres.
+
 ~~~python
 nome = "Mauricio"
 print(nome[2:5]) # pos 2 incluso, pos 5 nao incluso
 print(nome[:5])
 print(nome[2:])
 print(nome[-3:]) # ultimos 3
+nome_invert = texto[::-1]     # slice: inverter string
+
+nome = "Mauricio"
+
+# Slicing detalhado
+print(nome[::1])   # "Mauricio" - Percorre na ordem normal
+print(nome[::2])   # "Muiri"   - Pega um caractere a cada dois
+print(nome[::-1])  # "oiciruaM" - Inverte a string
 ~~~
 
 ## Alterar
@@ -229,3 +245,41 @@ print(nome)
 - title() - Converte o primeiro caractere de cada palavra para maiúscula 
 - translate() - Retorna uma string traduzida 
 - upper() - Converte uma string para maiúscula 
+
+#### Alguns Exemplos
+
+~~~python
+nome_maiusc = nome.upper()              # upper: passar para maiúsculo
+nome_minusc = nome.lower()              # lower: passar para minúsculo
+nome_modif = nome.replace("i", "x")     # replace: substituir caractere
+nome_sem_esp = nome.strip()             # strip: remover espaços vazios início e fim
+str_com_zeros = "5".zfill(3)            # zfill: preencher com zeros à esquerda: 005
+str_nros = ' '.join(["3", "2", "1"])    # join: juntar elementos em uma string: 3 2 1
+lista = "uva pera manga".split(' ')     # split: transformar string em lista
+contagem = nome.count("i")              # count: contar ocorrências
+indice_find = nome.find("i")            # find: Retorna a posição do primeiro 'i'
+termina = nome.endswith("io")           # endswith: Verifica se termina com 'io': True
+comeca = nome.startswith("Mau")         # startswith: Verifica se começa com 'ex': True
+eh_alpha = nome.isalpha()               # isalpha: Verifica se é alfabético
+eh_decimal = nome.isdecimal()           # isdecimal: Verifica se é decimal
+eh_digito = nome.isdigit()              # isdigit: Verifica se é dígito
+eh_numerico = nome.isnumeric()          # isnumeric: Verifica se é numérico
+
+indice = nome.index("i")                # index: Retorna a posição do primeiro 'i'
+retirar_esq = nome.lstrip()             # lstrip: Remove espaços à esquerda
+retirar_dir = nome.rstrip()             # rstrip: Remove espaços à direita: exemplo
+nome_capit = nome.capitalize()          # capitalize: converter o primeiro caractere em maiúsculas
+nome_cent = nome.center(20, "-")        # center: centralizar string preenchendo com caractere
+eh_alfanum = nome.isalnum()             # isalnum: Verifica se é alfanumérico
+eh_minus = nome.islower()               # islower: Verifica se todos são minúsculos
+eh_print = nome.isprintable()           # isprintable: Verifica se todos caracteres são imprimíveis: True
+eh_maiusc = nome.isupper()              # isupper: Verifica se todos são maiúsculos
+just_esq = nome.ljust(10, "-")          # ljust: Justifica à esquerda preenchendo com '-': exemplo---
+ultimo_find = nome.rfind("i")           # rfind: Retorna última posição do 'i'
+ultimo_index = nome.rindex("i")         # rindex: Retorna última posição do 'i'
+just_dir = nome.rjust(10, "-")          # rjust: Justifica à direita preenchendo com '-': ---exemplo
+troca_maiusc = "ExEmPlO".swapcase()          # swapcase: Troca maiúsculas por minúsculas e vice-versa: eXeMpLo
+como_titulo = "exemplo de título".title()    # title: Converte para formato de título: Exemplo De Título
+traduzir = "abc".translate({"a": "x"})       # translate: Aplica uma tradução: xbc
+so_maiusc = "exemplo".upper()                # upper: Converte para maiúsculas: EXEMPLO
+~~~

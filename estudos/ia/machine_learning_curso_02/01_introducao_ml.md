@@ -69,7 +69,7 @@
     ![alt text](img/01_redes_neurais.png)
 
 
-<!-- ***************************************************** Transcrito a mão até aqui ***************************************************** -->
+<!-- ********************************************************************* Transcrito a mão até aqui  -->
 
 ## Treinamento de uma rede neural artificial    
 

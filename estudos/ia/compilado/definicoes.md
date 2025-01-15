@@ -28,3 +28,7 @@
 ## IA X ML
 
 - IA é o objetivo geral, ML é uma das ferramentas para alcançá-lo.
+
+## Agentes autônomos
+
+- Possuem a capacidade de perceber, raciocinar, planejar e agir
