@@ -4,111 +4,114 @@
 
 #### Úteis  
 
-- [CLI](estudos/uteis/linha-comando.md)
-- [Criando um .venv](estudos/uteis/venv.md)
-- [PIP](estudos/uteis/pip.md)
-- [Conda](estudos/uteis/conda.md)
-- [Diversos](estudos/uteis/diversos.md)
-- [CUDA](estudos/uteis/cuda.md)
-- [Jupyter Notebook](estudos/uteis/jupyter-notebook.md)
-- [PEP8](estudos/uteis/pep8.md)
-- [Resumo](estudos/uteis/resumo.md)
+- [CLI](01_linguagem_python/0_uteis/linha-comando.md)
+- [Criando um .venv](01_linguagem_python/0_uteis/venv.md)
+- [PIP](01_linguagem_python/0_uteis/pip.md)
+- [Conda](01_linguagem_python/0_uteis/conda.md)
+- [Diversos](01_linguagem_python/0_uteis/diversos.md)
+- [CUDA](01_linguagem_python/0_uteis/cuda.md)
+- [Jupyter Notebook](01_linguagem_python/0_uteis/jupyter-notebook.md)
+- [PEP8](01_linguagem_python/0_uteis/pep8.md)
+- [Resumo](01_linguagem_python/0_uteis/resumo.md)
 
 #### Introdução
 
-- [Sobre o Python](estudos/introducao/about.md)
-- [Tipos de Dados](estudos/introducao/tipos.md)
-- [Variáveis e Constantes](estudos/introducao/variaveis-constantes.md)
-- [Operadores](estudos/introducao/operadores.md)
-- [Casting](estudos/introducao/casting.md)
-- [Inputs e outputs pelo console](estudos/introducao/input-output.md)
-- [Arredondamentos](estudos/introducao/arredondamentos.md)
-- [Strings](estudos/introducao/strings.md) => [Exercícios](estudos/introducao/strings_exercicios.md)
-- [Math](estudos/introducao/math.md)
-- [Gerar Números aleatórios](estudos/introducao/aleatorios.md)
-- [Datas](estudos/introducao/datas.md)
+- [Sobre o Python](01_linguagem_python/01_introducao/about.md)
+- [Tipos de Dados](01_linguagem_python/01_introducao/tipos.md)
+- [Variáveis e Constantes](01_linguagem_python/01_introducao/variaveis-constantes.md)
+- [Operadores](01_linguagem_python/01_introducao/operadores.md)
+- [Casting](01_linguagem_python/01_introducao/casting.md)
+- [Inputs e outputs pelo console](01_linguagem_python/01_introducao/input-output.md)
+- [Arredondamentos](01_linguagem_python/01_introducao/arredondamentos.md)
+- [Strings](01_linguagem_python/01_introducao/strings.md)
+- [Math](01_linguagem_python/01_introducao/math.md)
+- [Gerar Números aleatórios](01_linguagem_python/01_introducao/aleatorios.md)
+- [Datas](01_linguagem_python/01_introducao/datas.md)
             <!-- ************************************************ continuar revisão aqui -->
-- [Funções](estudos/introducao/funcoes.md)
-- [Funções Lambda](estudos/introducao/lambda.md)
-- [Recursão](estudos/introducao/recursao.md)
+- [Funções](01_linguagem_python/01_introducao/funcoes.md)
+- [Funções Lambda](01_linguagem_python/01_introducao/lambda.md)
+- [Recursão](01_linguagem_python/01_introducao/recursao.md)
 
-#### Comandos Condicionais e de Repetição
+#### Comandos Condicionais
 
-- [If..Else](estudos/comandos_condic_repetic/if-else.md)
-- [Switch](estudos/#) - Não há
-- [Pass](estudos/comandos_condic_repetic/pass.md)
-- [While](estudos/comandos_condic_repetic/while.md)
-- [Do...While](estudos/#) - Não há
-- [For](estudos/comandos_condic_repetic/for.md)
+- [If..Else](01_linguagem_python/02_comandos_condicicionais/if-else.md)
+- [Switch](01_linguagem_python/#) - Não há
+- [Pass](01_linguagem_python/02_comandos_condicicionais/pass.md)
+
+#### Comandos de Repetição
+
+- [For](01_linguagem_python/03_comandos_repeticao/for.md)
+- [While](01_linguagem_python/03_comandos_repeticao/while.md)
+- [Do...While](01_linguagem_python/#) - Não há
 
 #### Estruturas de Dados
 
-- [Arrays](estudos/#) - Não há (usamos listas ou lib NumPy)
-- [Listas](estudos/estrut-dados/listas.md)
-- [Tuplas](estudos/estrut-dados/tuplas.md)
-- [Conjuntos](estudos/estrut-dados/conjuntos.md)
-- [Dicionários](estudos/estrut-dados/dicionarios.md)
-
-#### Programação Orientada a Objetos
-
-- [Modulos](estudos/poo/modulos.md)
-- [Bibliotecas](estudos/poo/bibliotecas.md)
-- [Classes](estudos/poo/classes.md)
+- [Arrays](01_linguagem_python/#) - Não há (usamos listas ou lib NumPy)
+- [Listas](01_linguagem_python/04_estrut-dados/listas.md)
+- [Tuplas](01_linguagem_python/04_estrut-dados/tuplas.md)
+- [Conjuntos](01_linguagem_python/04_estrut-dados/conjuntos.md)
+- [Dicionários](01_linguagem_python/04_estrut-dados/dicionarios.md)
 
 #### Outros
 
-- [Arquivos](estudos/introducao/arquivos.md)
-- [Exceções](estudos/introducao/excecoes.md)
+- [Arquivos](01_linguagem_python/05_outros/arquivos.md)
+- [Exceções](01_linguagem_python/05_outros/excecoes.md)
 
-#### Exemplos
+#### Programação Orientada a Objetos
 
-- [Lendo uma entrada no Beecrowd](estudos/exemplos/beecrowd/lendo-entradas.md)    
-- [Usando o webservice ViaCEP](estudos/exemplos/ex-viacep.md)
-- [Usando a API pokemons](estudos/exemplos/ex-pokemon.md)
-- [Pegar o código fonte de qualquer página](estudos/exemplos/ex-source-code.md)
+- [Modulos](01_linguagem_python/06_poo/modulos.md)
+- [Bibliotecas](01_linguagem_python/06_poo/bibliotecas.md)
+- [Classes](01_linguagem_python/06_poo/classes.md)
 
-#### Exercícios
+## Exemplos
 
-- [Iniciante: 1000 a 1050](estudos/exercicios/beecrowd/iniciante-1000-1050.md)
-- [Iniciante: 1051 a 1100](estudos/exercicios/beecrowd/iniciante-1051-1100.md)
-- [Iniciante: 1101 a 1150](estudos/exercicios/beecrowd/iniciante-1101-1150.md)
-- [Estruturas e Bibliotecas](estudos/exercicios/beecrowd/estruturas-e-bibliotecas.md)
-- [Matemática](estudos/exercicios/beecrowd/matematica.md)
-- [Adhoc](estudos/exercicios/beecrowd/adhoc.md)
+- [Usando o webservice ViaCEP](02_exemplos/ex-viacep.md)
+- [Usando a API pokemons](02_exemplos/ex-pokemon.md)
+- [Pegar o código fonte de qualquer página](02_exemplos/ex-source-code.md)
+- [Diversos](02_exemplos/diversos.md)
+
+## Exercícios
+
+- [Lendo uma entrada no Beecrowd](03_exercicios/beecrowd/lendo-entradas.md)    
+- [Iniciante: 1000 a 1050](03_exercicios/beecrowd/iniciante-1000-1050.md)
+- [Iniciante: 1051 a 1100](03_exercicios/beecrowd/iniciante-1051-1100.md)
+- [Iniciante: 1101 a 1150](03_exercicios/beecrowd/iniciante-1101-1150.md)
+- [Estruturas e Bibliotecas](03_exercicios/beecrowd/estruturas-e-bibliotecas.md)
+- [Matemática](03_exercicios/beecrowd/matematica.md)
+- [Adhoc](03_exercicios/beecrowd/adhoc.md)
+- [Strings](03_exercicios/beecrowd/strings.md)
 
 ## Bibliotecas
 
 #### Pytorch
 
-- [Tensores - Úteis](estudos/pytorch/tensores-uteis.md)
-- [Tipos de Tensores](estudos/pytorch/tensores-tipos.md)
-- [Criar Tensores](estudos/pytorch/tensores-criar.md)
-- [Operações com Tensores](estudos/pytorch/tensores-operacoes.md)
-- [Indexar Tensores](estudos/pytorch/tensores-indexar.md)
-- [Converter Tensores](estudos/pytorch/tensores-converter.md)
-- [Concatenar Tensores](estudos/pytorch/tensores-concatenar.md)
+- [Tensores - Úteis](04_bibliotecas/pytorch/tensores-uteis.md)
+- [Tipos de Tensores](04_bibliotecas/pytorch/tensores-tipos.md)
+- [Criar Tensores](04_bibliotecas/pytorch/tensores-criar.md)
+- [Operações com Tensores](04_bibliotecas/pytorch/tensores-operacoes.md)
+- [Indexar Tensores](04_bibliotecas/pytorch/tensores-indexar.md)
+- [Converter Tensores](04_bibliotecas/pytorch/tensores-converter.md)
+- [Concatenar Tensores](04_bibliotecas/pytorch/tensores-concatenar.md)
 
 #### Numpy
 
-- [Úteis](estudos/numpy/numpy-uteis.md)
-- [Criar arrays Numpy](estudos/numpy/numpy-criar.md)
-- [Indexar arrays Numpy](estudos/numpy/numpy-indexar.md)
+- [Úteis](04_bibliotecas/numpy/numpy-uteis.md)
+- [Criar arrays Numpy](04_bibliotecas/numpy/numpy-criar.md)
+- [Indexar arrays Numpy](04_bibliotecas/numpy/numpy-indexar.md)
 
 #### Pandas
 
-- [Úteis](estudos/pandas/pandas-uteis.md)
-- [Criar DF](estudos/pandas/pandas-criar.md)
+- [Úteis](04_bibliotecas/pandas/pandas-uteis.md)
+- [Criar DF](04_bibliotecas/pandas/pandas-criar.md)
 
 #### Matplotlib
 
-- [Úteis](estudos/matplotlib/matplotlib-uteis.md)
-- [Plot](estudos/matplotlib/matplotlib-plot.md)
+- [Úteis](04_bibliotecas/matplotlib/matplotlib-uteis.md)
+- [Plot](04_bibliotecas/matplotlib/matplotlib-plot.md)
 
 #### OpenCV
 
-- [Lendo e exibindo uma imagem](estudos/opencv/lendo-exibindo-imagem.md)
-- [Lendo e exibindo um vídeo](estudos/opencv/lendo-exibindo-video.md)
-- [Salvando uma cópia de uma imagem](estudos/opencv/salvando-copia-imagem.md)
-- [Salvando uma cópia de um vídeo (webcam)](estudos/opencv/salvando-copia.video.md)
-
-
+- [Lendo e exibindo uma imagem](04_bibliotecas/opencv/lendo-exibindo-imagem.md)
+- [Lendo e exibindo um vídeo](04_bibliotecas/opencv/lendo-exibindo-video.md)
+- [Salvando uma cópia de uma imagem](04_bibliotecas/opencv/salvando-copia-imagem.md)
+- [Salvando uma cópia de um vídeo (webcam)](04_bibliotecas/opencv/salvando-copia.video.md)

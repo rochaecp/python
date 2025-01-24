@@ -21,7 +21,7 @@ Rocha
 
 ## Concatenar uma string
 
-- Só é possível concatenar uma string com outra string
+- Só é possível concatenar uma string com outra string.
 
 ~~~python
 minha_string = "bom" + " dia" 
