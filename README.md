@@ -111,8 +111,4 @@
 - [Salvando uma cópia de uma imagem](estudos/opencv/salvando-copia-imagem.md)
 - [Salvando uma cópia de um vídeo (webcam)](estudos/opencv/salvando-copia.video.md)
 
-<!-- ## Inteligência Artificial
 
-- [Machine Learning - Curso 01](estudos/ia/machine_learning_curso_01/README.md)
-- [Machine Learning - Curso 02](estudos/ia/machine_learning_curso_02/01_introducao_ml.md)
-- [Deep Learning - Curso 01](estudos/ia/deep_learning_curso_01/README.md) -->

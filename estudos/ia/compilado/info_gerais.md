@@ -1,3 +1,0 @@
-- Projeto de Lei 2.338/2023 - PL da IA
-- PL 21/2020, já aprovado pela Câmara
-- Grupo de Peritos de Alto Nível sobre a Inteligência Artificial (GPAN IA) - União Europeia em 2018

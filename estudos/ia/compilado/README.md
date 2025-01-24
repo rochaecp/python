@@ -1,1 +1,0 @@
-> Compilado de todas as teorias obtidas em cursos palestras e leituras
