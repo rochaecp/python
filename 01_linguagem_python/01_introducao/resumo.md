@@ -1,11 +1,18 @@
-# Console
+# Python - Resumo
+
+## Console 
 
 ~~~python
-variavel = 12.3456
-print(f"{variavel:.2f}") # 12.35
+# f-string e arredondamento
+numero = 12.3456
+print(f"{numero:.2f}") # 12.35, f=ponto flutuante
+
+# f-string e truncando string
+texto = 'blablabla'
+print(f"{texto:.3}") # bla
 ~~~
 
-# Números Aleatórios
+## Números Aleatórios
 
 ~~~python
 import random
@@ -13,13 +20,13 @@ import random
 num_aleat = random.randrange(1, 10) # 1 a 9
 ~~~
 
-# Strings
+## Strings
 
 ~~~python
 nome = "Mauricio"                       # criar
 msg = "Bem vindo " + nome               # concatenar
 tamanho = len(nome)                     # tamanho
-primeira_letra = nome[0]                # indexar
+primeira_letra = nome[-1]               # indexar
 ultima_letra = nome[0]                  # indexar
 uma_fatia = nome[2:3]                   # slice: 2 (incluso), 3 (não incluso)
 uma_fatia = nome[-3]                    # slice: últimos 3
@@ -46,49 +53,49 @@ eh_decimal = nome.isdecimal()           # isdecimal: Verifica se é decimal
 eh_digito = nome.isdigit()              # isdigit: Verifica se é dígito
 eh_numerico = nome.isnumeric()          # isnumeric: Verifica se é numérico
 
-# Modificar um caractere em uma posição
+## Modificar um caractere em uma posição
 lista = list(nome)
 lista[0] = "J"
 nome_modif = "".join(lista)
 ~~~
 
-# Datas
+## Datas
 
 ~~~python
 
 ~~~
 
-# Funções
+## Funções
 
 ~~~python
 
 ~~~
 
-# Listas
+## Listas
 
 ~~~python
 
 ~~~
 
-# Dicionários
+## Dicionários
 
 ~~~python
 
 ~~~
 
-# Arquivos
+## Arquivos
 
 ~~~python
 
 ~~~
 
-# Exceções
+## Exceções
 
 ~~~python
 
 ~~~
 
-# POO
+## POO
 
 ~~~python
 

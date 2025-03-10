@@ -351,7 +351,27 @@ if __name__ == "__main__":
 ### 1142 - PUM
 
 ~~~python
+n = int(input())
+num = 1
 
+for _ in range(n):
+    print(f"{num} {num + 1} {num + 2} PUM")
+    num += 4
+~~~
+
+~~~python
+qtd = int(input())
+j = 1
+saida = ""
+
+for i in range(qtd):
+    while j % 4 != 0:
+        saida += str(j) + " "
+        j += 1
+    j += 1
+    saida += "PUM"
+    print(saida)
+    saida = ""
 ~~~
 
 ### 1143 - Quadrado e ao Cubo

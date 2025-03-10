@@ -201,6 +201,13 @@ nome = nome[:0] + 'X' + nome[1:]
 print(nome)
 ~~~
 
+## Formatando strings com f-string
+
+~~~python
+nome = 'Mauricio'
+print(f'Ola {nome}!')
+~~~
+
 ## Métodos para strings
 
 - capitalize() - Converte o primeiro caractere em maiúsculas
