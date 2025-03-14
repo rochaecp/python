@@ -97,6 +97,7 @@
 - [CUDA](A_uteis/cuda.md)
 - [Jupyter Notebook](A_uteis/jupyter-notebook.md)
 - [PEP8](A_uteis/pep8.md)
+- [sys](A_uteis/sys.md)
 
 ## Exemplos
 
