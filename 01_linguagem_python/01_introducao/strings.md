@@ -19,6 +19,11 @@ Rocha
 """
 ~~~
 
+~~~python
+frase = 'Cada boa ação que você pratica é uma luz que você ' \
+        'cria em torno de seus próprios passos.'
+~~~
+
 ## Concatenar uma string
 
 - Só é possível concatenar uma string com outra string.
